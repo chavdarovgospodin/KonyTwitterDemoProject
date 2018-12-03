@@ -29,7 +29,9 @@
         "needAppMenu": false
     },
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "FlexAppContainer"
+    ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
@@ -37,9 +39,11 @@
             "name": "Form1Controller"
         }
     },
+    "currentLocale": "default",
     "desktopweb": {
         "needAppMenu": false
     },
+    "device": "iPhoneX",
     "displayorientation": 1,
     "enabledforidletimeout": false,
     "id": "Form1",
@@ -93,9 +97,13 @@
     "name": "kony.ui.Form2",
     "needappmenu": false,
     "paddinginpixel": false,
+    "platform": "iphone",
+    "prevDevice": "iPhoneX",
+    "prevPlatform": "iphone",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,
+    "shellCSS": "iOS_iPhoneX",
     "snapgridsize": 10,
     "snaptogrid": true,
     "spaan": {

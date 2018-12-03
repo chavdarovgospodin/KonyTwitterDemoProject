@@ -14,9 +14,9 @@
   "desktopweb": {
     "font_name": "Helvetica"
   },
-  "font_color": "333333ff",
-  "font_name": "iphoneSystem",
-  "font_size": 200,
+  "font_color": "4b88f1ff",
+  "font_name": "Helvetica",
+  "font_size": 150,
   "font_style": "normal",
   "font_weight": "normal",
   "ipad": {
@@ -29,9 +29,7 @@
   "kiosk": {
     "font_name": "None"
   },
-
-  "kuid": "s9678af4f49d404db5d50e4b642f7721",
-
+  "kuid": "sd679b27c4b54ff8ab0e60b9e34a53dd",
   "spaan": {
     "font_name": "Helvetica"
   },
@@ -56,7 +54,7 @@
   "tabrcandroid": {
     "font_name": "default"
   },
-  "wType": "Label",
+  "wType": "RichText",
   "watchos": {
     "font_name": "System"
   },

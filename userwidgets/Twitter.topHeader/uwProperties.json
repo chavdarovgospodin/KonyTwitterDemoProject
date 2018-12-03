@@ -1,0 +1,163 @@
+{
+    "classname": "topHeader",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "jee86cfc48c14b94b71bfc128826f18c",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 1,
+                    "propertyKey": "imgIsVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "imgIsVisible",
+                        "srcWidget": "flxImg",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "eb2f83a6b61046a69c7abb7685d37e97"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "fcc116581f5241d1bc3ea590757b36f5",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 2,
+                    "propertyKey": "backBtnIsVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "backBtnIsVisible",
+                        "srcWidget": "flxBackBtn",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "f0f63b76865f4eccacf5ceb40b6eefd4"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ead078d7398c412393d9616af3685409",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 3,
+                    "propertyKey": "titleIsVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "titleIsVisible",
+                        "srcWidget": "lblTitle",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "j28f3918e8f84f42a98619994ded6c7c"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b6ab42ac95bc4899a40a4ed2a473324a",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 4,
+                    "propertyKey": "midIconIsVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "midIconIsVisible",
+                        "srcWidget": "lblTwitterIcon",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "b1072251b0b445a3bdd8347e8838c702"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b8fbb409d1b44f05b65cde4ea09bd613",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 5,
+                    "propertyKey": "isVisiblePencil",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "isVisiblePencil",
+                        "srcWidget": "flxPencil",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "ic7cd2ff6bd04a90a9534eeac0aac047"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "icb67339bc4c44c18cf8104efcafd2bb",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 6,
+                    "propertyKey": "titleText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "titleText",
+                        "srcWidget": "lblTitle",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "j28f3918e8f84f42a98619994ded6c7c"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f1dc6fa148774c91856318b68e1bdd37",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 7,
+                    "propertyKey": "signUpIsVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "signUpIsVisible",
+                        "srcWidget": "lblSignUp",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "gadc291d92db490a9e55f1b5b204b043"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "Twitter",
+    "version": "1.0.0"
+}
