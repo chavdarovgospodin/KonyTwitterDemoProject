@@ -303,7 +303,7 @@
     <attributes name="winphn10bgagentpath" value=""/>
     <attributes name="ANDROIDWEAR_ACCESS_CHECKIN_PROPERTIES" value="false"/>
     <attributes name="Microphone" value="true"/>
-    <attributes name="supportX86Devices" value="false"/>
+    <attributes name="supportX86Devices" value="true"/>
     <attributes name="ANDROIDWEAR_INJECT_EVENTS" value="false"/>
     <attributes name="win8smalllogokey" value=""/>
     <attributes name="backgroundmodes" value="Disabled"/>
@@ -364,7 +364,7 @@
     <attributes name="ANDROIDWEAR_FORCE_BACK" value="false"/>
     <attributes name="bb10urlscheme" value=""/>
     <attributes name="apppackagekey" value="com.orgname.KonyTwitterDemo"/>
-    <attributes name="andtargetsdkkey" value="4.0 (14)"/>
+    <attributes name="andtargetsdkkey" value="8.1 (27)"/>
     <attributes name="win8bgagentclassname" value=""/>
     <attributes name="wp81sdescriptionkey" value="Sample Test Application"/>
     <attributes name="ANDROIDWEAR_WRITE_SMS" value="false"/>
@@ -419,7 +419,7 @@
     <attributes name="SIGNAL_PERSISTENT_PROCESSES" value="false"/>
     <attributes name="desktopwebbasefontsize" value="16"/>
     <attributes name="REORDER_TASKS" value="false"/>
-    <attributes name="andminsdkkey" value="4.0 (14)"/>
+    <attributes name="andminsdkkey" value="4.1 (16)"/>
     <attributes name="Proximity" value="true"/>
     <attributes name="androidscreenresizeable" value="false"/>
     <attributes name="ANDROIDWEAR_DIAGNOSTIC" value="false"/>
@@ -512,7 +512,7 @@
     <attributes name="WRITE_SETTINGS" value="false"/>
     <attributes name="cloud_account_guid" value="990b7119-9591-4481-a42a-75650efa137e"/>
     <attributes name="statusBarHidden" value="false"/>
-    <attributes name="andmaxsdkkey" value="None"/>
+    <attributes name="andmaxsdkkey" value="8.1 (27)"/>
     <attributes name="wp10chat" value="false"/>
     <attributes name="ipad_appicon_2x_76" value=""/>
     <attributes name="wp10internetClient" value="false"/>
