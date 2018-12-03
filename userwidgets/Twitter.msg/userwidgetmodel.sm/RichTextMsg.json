@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        2,
+        0,
+        2,
+        0
+    ],
+    "_skin_": "s61b6ee3506940d5ba96074f211f76d1",
+    "_text_": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "RichTextMsg",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "feb4b3beba364b86b94a62a780bd77bd",
+    "linkskin": "sd679b27c4b54ff8ab0e60b9e34a53dd",
+    "name": "kony.ui.RichText",
+    "parent": "flxMsg",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5
+}

@@ -16,7 +16,7 @@
   },
   "font_color": "333333ff",
   "font_name": "iphoneSystem",
-  "font_size": 200,
+  "font_size": 150,
   "font_style": "normal",
   "font_weight": "normal",
   "ipad": {
@@ -29,9 +29,7 @@
   "kiosk": {
     "font_name": "None"
   },
-
-  "kuid": "s9678af4f49d404db5d50e4b642f7721",
-
+  "kuid": "sbed380c70df490596cb662a85eefa4e",
   "spaan": {
     "font_name": "Helvetica"
   },
@@ -56,7 +54,7 @@
   "tabrcandroid": {
     "font_name": "default"
   },
-  "wType": "Label",
+  "wType": "RichText",
   "watchos": {
     "font_name": "System"
   },
