@@ -1,0 +1,27 @@
+{
+    "AS_FlexContainer_cfcb9117e5864a23aa3148cb4a784eed": {
+        "id": "AS_FlexContainer_cfcb9117e5864a23aa3148cb4a784eed",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwu5077d6d10bb4d489d27851c4c1a0b96",
+            "type": "userwidgets",
+            "KUID": "u5077d6d10bb4d489d27851c4c1a0b96"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___d8c62b1877cb4f7089e22b9959ecbaee",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "navToLogin",
+            "display": "navToLogin",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

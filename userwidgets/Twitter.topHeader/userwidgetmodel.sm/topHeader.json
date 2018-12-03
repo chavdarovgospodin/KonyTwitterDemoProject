@@ -39,7 +39,9 @@
         "flxImg",
         "flxBackBtn",
         "flxMiddle",
-        "flxPencil"
+        "flxPencil",
+        "flxSignUp",
+        "flxBottomLine"
     ],
     "clipbounds": true,
     "containerweight": 100,

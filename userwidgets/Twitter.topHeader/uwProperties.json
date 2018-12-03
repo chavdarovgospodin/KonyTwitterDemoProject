@@ -131,25 +131,6 @@
                         "wType": "Label"
                     },
                     "srcWgtKUID": "j28f3918e8f84f42a98619994ded6c7c"
-                },
-                {
-                    "access": "Enable",
-                    "group": "General",
-                    "kuid": "f1dc6fa148774c91856318b68e1bdd37",
-                    "originalPropertyKey": "isVisible",
-                    "propertyIndex": 7,
-                    "propertyKey": "signUpIsVisible",
-                    "pw": {
-                        "access": "readwrite",
-                        "category": "look",
-                        "dependentKeysKUIDs": null,
-                        "displayName": "signUpIsVisible",
-                        "srcWidget": "lblSignUp",
-                        "type": "boolean",
-                        "uiRepresentation": "Label-Radiobuttongroup",
-                        "wType": "Label"
-                    },
-                    "srcWgtKUID": "gadc291d92db490a9e55f1b5b204b043"
                 }
             ]
         },

@@ -37,8 +37,7 @@
     "canUpdateUI": true,
     "children": [
         "lblTitle",
-        "lblTwitterIcon",
-        "lblSignUp"
+        "lblTwitterIcon"
     ],
     "clipbounds": true,
     "containerweight": 100,

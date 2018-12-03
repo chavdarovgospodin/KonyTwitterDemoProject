@@ -18,16 +18,8 @@
         0,
         0
     ],
-    "_right_": {
-        "type": "number",
-        "value": "0"
-    },
     "_skin_": "s7d817479b7244c9b3f619c3725db121",
     "_text_": "Sign up",
-    "_top_": {
-        "type": "string",
-        "value": "0"
-    },
     "_width_": {
         "type": "ref",
         "value": "preferred"
@@ -40,12 +32,16 @@
         }
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "centery": {
         "type": "string",
         "value": "50%"
     },
     "containerweight": 100,
-    "contentalignment": 6,
+    "contentalignment": 5,
     "id": "lblSignUp",
     "info": null,
     "ipad": {
@@ -62,7 +58,7 @@
     "isvisible": true,
     "kuid": "gadc291d92db490a9e55f1b5b204b043",
     "name": "kony.ui.Label",
-    "parent": "flxMiddle",
+    "parent": "flxSignUp",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

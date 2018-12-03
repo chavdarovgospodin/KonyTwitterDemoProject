@@ -30,7 +30,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "25%"
+        "value": "30%"
     },
     "allboxes": [],
     "autogrowmode": 0,
@@ -41,12 +41,12 @@
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "FlxSignUp",
-    "ide_onClick": "AS_FlexContainer_ed43b0a9996743daa82dee911085f76a",
+    "id": "flxSignUp",
+    "ide_onClick": "AS_FlexContainer_de4780cecd544b3697811cb570e0fca9",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "d1da23cbb0d04b8888665525fff9e977",
+    "kuid": "ic542685eaee4e6f8dc543a47cf2ac20",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
     "parent": "topHeader",
