@@ -1,7 +1,7 @@
 {
     "APPLICATION_THEME": "default",
     "appaddrkey": "",
-    "appidkey": "KonyTwitterDemo",
+    "appidkey": "KonyTwitterDemoo",
     "appnamekey": "KonyTwitterDemo",
     "apppackagekey": "",
     "appversionkey": "1.0.0",
@@ -29,16 +29,16 @@
     "project.type": "js",
     "project_version": "sprint32",
     "referenceWidth": "375",
-    "startupformkey": "j7e8739115b84811906c7c8ac585457d",
+    "startupformkey": "g0cba1f734a14070bd755dc33d23237b",
     "vendornamekey": "KonyLabs",
     "winmobileguidkey": "",
     "defaulttheme": "defaultTheme",
     "cloud_account_guid": "990b7119-9591-4481-a42a-75650efa137e",
     "nativeContainerProperties": {
-        "isEnableJSContainerAndroid": true,
         "isModified": true,
-        "isEnableJSContaineriOS": true,
-        "isEnableJSContainer": true
+        "isEnableJSContainer": true,
+        "isEnableJSContainerAndroid": true,
+        "isEnableJSContaineriOS": true
     },
     "appmenu": {
         "tablet": {
@@ -240,13 +240,13 @@
     "enablexfsdw": false,
     "enablexfsspa": false,
     "accountCloudGuid": "990b7119-9591-4481-a42a-75650efa137e",
-    "projectCloudGuid": "4289f32c-1384-4712-b661-d807ac7f0e0c",
+    "projectCloudGuid": "52ee975a-e262-49a2-b558-6c468772bea2",
     "prototype": {
-        "createdOn": "2018-12-03T13:10:03.779Z",
-        "createdById": "da4cb045-3709-4a84-a931-2abefa516851",
-        "createdBy": "Miroslav Sheytanov",
-        "shareGuid": "W74Y3",
-        "resourceId": "97fe52b4-1730-4a50-91a8-1a55477a4150",
+        "createdOn": "2018-12-03T13:39:02.470Z",
+        "createdById": "a166c97c-0d64-4d6d-9729-0596d5fb01b7",
+        "createdBy": "Gospodin Chavdarov",
+        "shareGuid": "R5QWB",
+        "resourceId": "7174ed3b-da0a-4b23-bffd-ea0c36aeb1d7",
         "PublishMode": "public"
     }
 }
