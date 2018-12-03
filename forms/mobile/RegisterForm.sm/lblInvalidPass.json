@@ -55,7 +55,7 @@
         }
     },
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "b0475675facd4a6e8816a74deca6d05a",
     "name": "kony.ui.Label",
     "parent": "FlexPassword",

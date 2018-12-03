@@ -55,7 +55,7 @@
         }
     },
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "ad0b6f7a8d7243278c696af4095f964d",
     "name": "kony.ui.Label",
     "parent": "FlexUsername",

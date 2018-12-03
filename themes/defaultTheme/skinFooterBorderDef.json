@@ -15,36 +15,36 @@
     "font_name": "Helvetica",
     "isForked": true,
     "shadow": {
-      "br": 1,
+      "br": 53,
       "color": "7a7a7aff",
       "inner": true,
       "nm": 0,
-      "x": 1,
-      "y": 1
+      "x": 0,
+      "y": 0
     }
   },
   "ipad": {
     "font_name": "System",
     "isForked": true,
     "shadow": {
-      "br": 1,
+      "br": 53,
       "color": "7a7a7aff",
       "inner": true,
       "nm": 0,
-      "x": 1,
-      "y": 1
+      "x": 0,
+      "y": 0
     }
   },
   "iphone": {
     "font_name": "System",
     "isForked": true,
     "shadow": {
-      "br": 1,
+      "br": 53,
       "color": "7a7a7aff",
       "inner": true,
       "nm": 0,
-      "x": 1,
-      "y": 1
+      "x": 0,
+      "y": 0
     }
   },
   "isDefaultSkin": false,
@@ -56,84 +56,84 @@
     "font_name": "Helvetica",
     "isForked": true,
     "shadow": {
-      "br": 1,
+      "br": 53,
       "color": "7a7a7aff",
       "inner": true,
       "nm": 0,
-      "x": 1,
-      "y": 1
+      "x": 0,
+      "y": 0
     }
   },
   "spaandroidtablet": {
     "font_name": "Helvetica",
     "isForked": true,
     "shadow": {
-      "br": 1,
+      "br": 53,
       "color": "7a7a7aff",
       "inner": true,
       "nm": 0,
-      "x": 1,
-      "y": 1
+      "x": 0,
+      "y": 0
     }
   },
   "spabb": {
     "font_name": "Helvetica",
     "isForked": true,
     "shadow": {
-      "br": 1,
+      "br": 53,
       "color": "7a7a7aff",
       "inner": true,
       "nm": 0,
-      "x": 1,
-      "y": 1
+      "x": 0,
+      "y": 0
     }
   },
   "spaip": {
     "font_name": "Helvetica",
     "isForked": true,
     "shadow": {
-      "br": 1,
+      "br": 53,
       "color": "7a7a7aff",
       "inner": true,
       "nm": 0,
-      "x": 1,
-      "y": 1
+      "x": 0,
+      "y": 0
     }
   },
   "spaipad": {
     "font_name": "Helvetica",
     "isForked": true,
     "shadow": {
-      "br": 1,
+      "br": 53,
       "color": "7a7a7aff",
       "inner": true,
       "nm": 0,
-      "x": 1,
-      "y": 1
+      "x": 0,
+      "y": 0
     }
   },
   "spawindowstablet": {
     "font_name": "Helvetica",
     "isForked": true,
     "shadow": {
-      "br": 1,
+      "br": 53,
       "color": "7a7a7aff",
       "inner": true,
       "nm": 0,
-      "x": 1,
-      "y": 1
+      "x": 0,
+      "y": 0
     }
   },
   "spawinphone8": {
     "font_name": "Helvetica",
     "isForked": true,
     "shadow": {
-      "br": 1,
+      "br": 53,
       "color": "7a7a7aff",
       "inner": true,
       "nm": 0,
-      "x": 1,
-      "y": 1
+      "x": 0,
+      "y": 0
     }
   },
   "tabrcandroid": {
