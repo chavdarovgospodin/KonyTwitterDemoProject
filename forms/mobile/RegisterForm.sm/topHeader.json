@@ -1,9 +1,11 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
     "__parentReadjusting__": false,
+    "_children_": [],
     "_height_": {
         "type": "string",
-        "value": "80%"
+        "value": "60dp"
     },
     "_left_": {
         "type": "string",
@@ -15,7 +17,7 @@
         0,
         0
     ],
-    "_orientation_": 6,
+    "_orientation_": 1,
     "_padding_": [
         0,
         0,
@@ -23,40 +25,42 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s723c1fffd5c485187880d3233d37dd9",
+    "_skin_": "s34128886e7148699c2c3fda56c71642",
     "_top_": {
         "type": "string",
-        "value": "60dp"
+        "value": "0%"
     },
     "_width_": {
         "type": "string",
         "value": "100%"
     },
-    "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [
-        "FlexRegisterLbl",
-        "FlexUsername",
-        "FlexPassword"
-    ],
     "clipbounds": true,
-    "containerweight": 100,
+    "containerweight": 0,
+    "data": {
+        "backBtnIsVisible": true,
+        "imgIsVisible": false,
+        "isVisiblePencil": false,
+        "midIconIsVisible": true,
+        "titleIsVisible": false
+    },
     "enablescrolling": true,
-    "id": "FlexMain",
+    "id": "topHeader",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "f2aedb1198d642488e88de91172a96e5",
-    "layouttype": 4,
-    "name": "kony.ui.FlexContainer",
+    "kuid": "id80648eaf924529ace37e914cea9f3b",
+    "layouttype": 2,
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
     "parent": "RegisterForm",
     "pf": "RegisterForm",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "wType": "FlexContainer",
-    "widgetalignment": 1,
+    "sourceUserWidget": "j5265f77f4224d559b15ece285e1ed8a",
+    "wType": "UserWidgetInstance",
     "zindex": 1
 }

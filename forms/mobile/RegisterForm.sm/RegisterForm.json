@@ -31,7 +31,8 @@
     "canUpdateUI": true,
     "children": [
         "FlexMain",
-        "FooterComp"
+        "FooterComp",
+        "topHeader"
     ],
     "containerweight": 100,
     "controllerInfo": {
@@ -99,8 +100,8 @@
     "needappmenu": false,
     "paddinginpixel": false,
     "platform": "android",
-    "prevDevice": "iPhoneX",
-    "prevPlatform": "spaip",
+    "prevDevice": "WinMob",
+    "prevPlatform": "winphone8",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,
