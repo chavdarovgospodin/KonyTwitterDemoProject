@@ -48,7 +48,7 @@
     "layouttype": 4,
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
-    "parent": "Listing",
+    "parent": "FlexListing",
     "pf": "ListingForm",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
