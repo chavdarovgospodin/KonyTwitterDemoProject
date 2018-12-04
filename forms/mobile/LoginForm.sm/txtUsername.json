@@ -34,8 +34,8 @@
         "value": "90%"
     },
     "android": {
-        "ide_onBeginEditing": "AS_TextField_e20ed2c805e04ad5b3100b8876a32721",
-        "ide_onEndEditing": "AS_TextField_edd87769cc6b4f13b01d91dbe08854cb"
+        "ide_onBeginEditing": "AS_TextField_h8037b889198453bbfbec006467590bb",
+        "ide_onEndEditing": "AS_TextField_d4b806d6c04b49cca780b833d19f952a"
     },
     "autocapitalize": "none",
     "autocomplete": false,
@@ -56,8 +56,8 @@
     "id": "txtUsername",
     "info": null,
     "iphone": {
-        "ide_onBeginEditing": "AS_TextField_i320e1eed46b47fbb580cf58ce5574f2",
-        "ide_onEndEditing": "AS_TextField_ga21dd53ca9449baaf136671ffd3369c"
+        "ide_onBeginEditing": "AS_TextField_bfa40862f162450b9b6f7f2464e06752",
+        "ide_onEndEditing": "AS_TextField_c63c37ca1f0848b188d9b9764714e6ad"
     },
     "iscustomlayout": false,
     "isvisible": true,

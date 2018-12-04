@@ -1,0 +1,32 @@
+{
+    "AS_TextField_b2ec183369224704bc678ae2b3f84151": {
+        "id": "AS_TextField_b2ec183369224704bc678ae2b3f84151",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY____f1966018507948abbb11f125a6139d24",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "LoginForm",
+            "widgetId": "flxBorderUsername",
+            "propertyName": "skin",
+            "propertyValue": "flxBorderFocusSkin",
+            "itemKUID": "j7e8739115b84811906c7c8ac585457d",
+            "widgetKUID": "fed91e7b75444572a63ae67f0c38152f",
+            "skinKUID": "sfe817e469d246328f2e413b4d1fe67b",
+            "isSkinProperty": true,
+            "wType": "FlexContainer",
+            "currentTheme": "defaultTheme",
+            "forkedPlatform": "all",
+            "callbackType": null,
+            "widgetPath": "this.view.flxBorderUsername"
+        }]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "AS_TextField_jb36265a9b2c40a5bcafe5c579f55ba8": {
+        "id": "AS_TextField_jb36265a9b2c40a5bcafe5c579f55ba8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY____j7acc1e3795144ccb82fe133c5ca94c4",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "LoginForm",
+            "widgetId": "flxBorderPassword",
+            "propertyName": "skin",
+            "propertyValue": "flxBorderFocusSkin",
+            "itemKUID": "j7e8739115b84811906c7c8ac585457d",
+            "widgetKUID": "fe0ff936491c444b8d5a62b61abbc9da",
+            "skinKUID": "sfe817e469d246328f2e413b4d1fe67b",
+            "isSkinProperty": true,
+            "wType": "FlexContainer",
+            "currentTheme": "defaultTheme",
+            "forkedPlatform": "all",
+            "callbackType": null,
+            "widgetPath": "this.view.flxBorderPassword"
+        }]
+    }
+}
