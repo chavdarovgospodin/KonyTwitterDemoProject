@@ -15,8 +15,8 @@
         "actions": [{
             "id": "INVOKE_FUNCTION___d8c62b1877cb4f7089e22b9959ecbaee",
             "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "navToLogin",
-            "display": "navToLogin",
+            "sequenceKUID": "navToPrevious",
+            "display": "navToPrevious",
             "inputparams": [],
             "parentId": null,
             "callbackType": null,
