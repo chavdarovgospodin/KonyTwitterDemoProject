@@ -1,0 +1,28 @@
+{
+    "AS_UWI_fa2bc57758df4194a6a4cb1ffe53949c": {
+        "id": "AS_UWI_fa2bc57758df4194a6a4cb1ffe53949c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "RegisterForm",
+            "type": "forms",
+            "platform": "",
+            "KUID": "g0cba1f734a14070bd755dc33d23237b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___dc717af2a4b249928400432b2ae91b36",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "valiteForms",
+            "display": "valiteForms",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

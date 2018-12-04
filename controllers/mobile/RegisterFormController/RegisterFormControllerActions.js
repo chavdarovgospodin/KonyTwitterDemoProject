@@ -105,5 +105,10 @@ define({
                 self.view.FlexBorderPass.skin = "skinFooterBorderDef";
             })();
         }
+    },
+    /** onClick defined for FooterComp **/
+    AS_UWI_fa2bc57758df4194a6a4cb1ffe53949c: function AS_UWI_fa2bc57758df4194a6a4cb1ffe53949c(eventobject) {
+        var self = this;
+        return self.valiteForms.call(this);
     }
 });
