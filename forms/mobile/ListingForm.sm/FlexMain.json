@@ -52,7 +52,7 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "ab2533c78abb4568bd1ec6a0a835e7fc",
-    "layouttype": 2,
+    "layouttype": 4,
     "name": "kony.ui.FlexScrollContainer",
     "pagingenabled": false,
     "parent": "ListingForm",

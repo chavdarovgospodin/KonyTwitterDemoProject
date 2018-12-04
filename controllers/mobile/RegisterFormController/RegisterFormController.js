@@ -2,22 +2,18 @@ define({
 
   valiteForms: function () {
 
-    var regex = (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/);
-    if (this.validateInputFields(this.view.textBoxUsername) && this.validateInputFields(this.view.textBoxPassword)) {
-      if(this.view.textBoxUsername.text.match(regex)) {
-
+   
+    if (this.validateInputFields(this.view.textBoxUsername) && this.validateInputFields(this.view.textBoxPassword) && this.validateRegex(this.view.textBoxUsername)) {    
         alert('user saved!');
-        //var ntf = new kony.mvc.Navigation("listingForm");
-        //ntf.navigate();
+        var ntf = new kony.mvc.Navigation("ListingForm");
+        ntf.navigate();
         //save this user to the database
-      }
-      else {
-        alert('Invalid email');
-      }
     }
+    
+  
 
 
-    if(this.validateInputFields(this.view.textBoxUsername)) {
+    if(this.validateInputFields(this.view.textBoxUsername) && this.validateRegex(this.view.textBoxUsername)) {
       this.view.lblInvalidUsername.isVisible = false;
       this.view.FlexBorderUser.skin = 'skinFooterBorderDef';
     }
@@ -40,6 +36,11 @@ define({
 
   validateInputFields: function(input) {
     return input.text !== null && input.text !=='';
+  },
+  
+  validateRegex: function (input) {
+	var regex = (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/);
+   return input.text.match(regex);
   }
 
 });
