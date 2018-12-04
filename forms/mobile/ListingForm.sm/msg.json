@@ -28,7 +28,7 @@
     "_skin_": "s34128886e7148699c2c3fda56c71642",
     "_top_": {
         "type": "number",
-        "value": "1"
+        "value": "0"
     },
     "_width_": {
         "type": "string",
@@ -48,7 +48,7 @@
     "layouttype": 4,
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
-    "parent": "FlexListing",
+    "parent": "FlexMain",
     "pf": "ListingForm",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
