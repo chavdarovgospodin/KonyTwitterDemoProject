@@ -28,7 +28,7 @@
     "autogrowmode": 1,
     "canUpdateUI": true,
     "children": [
-        "newTweet"
+        "TextAreaNewTweet"
     ],
     "clipbounds": true,
     "containerweight": 100,
