@@ -10,7 +10,7 @@ define({
     /** onClick defined for flxBackBtn **/
     AS_FlexContainer_cfcb9117e5864a23aa3148cb4a784eed: function AS_FlexContainer_cfcb9117e5864a23aa3148cb4a784eed(eventobject) {
         var self = this;
-        return self.navToLogin.call(this);
+        return self.navToPrevious.call(this);
     },
     /** onClick defined for flxSignUp **/
     AS_FlexContainer_de4780cecd544b3697811cb570e0fca9: function AS_FlexContainer_de4780cecd544b3697811cb570e0fca9(eventobject) {
