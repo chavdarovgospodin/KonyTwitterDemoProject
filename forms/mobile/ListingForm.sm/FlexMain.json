@@ -39,7 +39,7 @@
     "canUpdateUI": true,
     "children": [
         "FlexHeader",
-        "FlexListing"
+        "msg"
     ],
     "clipbounds": true,
     "containerweight": 100,

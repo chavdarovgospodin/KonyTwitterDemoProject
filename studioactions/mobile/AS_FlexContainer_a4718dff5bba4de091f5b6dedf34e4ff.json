@@ -7,15 +7,6 @@
             "name": "eventobject"
         }],
         "language": "js",
-        "actions": [{
-            "id": "INVOKE_FUNCTION__ide_onClick_dc39b2075047420490790dac343136b9",
-            "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "navToProfile",
-            "display": "navToProfile",
-            "inputparams": [],
-            "callbackType": null,
-            "disabled": null,
-            "source": "controller"
-        }]
+        "actions": []
     }
 }
