@@ -51,7 +51,7 @@
     "kuid": "h9adfdae85bc4c8cbe7e342a1f5e536e",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxLoginCreds",
+    "parent": "flxLogInFields",
     "pf": "LoginForm",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
