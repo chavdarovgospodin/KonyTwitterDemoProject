@@ -2,8 +2,8 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "string",
-        "value": "60dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "_left_": {
         "type": "string",
@@ -23,7 +23,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s7edfff8458d408cbb1cda37eb61f6b4",
+    "_skin_": "s0332b7ba6e4408bba1706ff4db02c1b",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -33,32 +33,38 @@
         "value": "100%"
     },
     "allboxes": [],
-    "autogrowmode": 0,
+    "allowhorizontalbounce": false,
+    "allowverticalbounce": true,
+    "bounces": true,
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
     "children": [
-        "topHeader"
+        "FlexHeader",
+        "FlexListing"
     ],
     "clipbounds": true,
     "containerweight": 100,
+    "decelerat": false,
+    "dragg": false,
     "enablescrolling": true,
-    "id": "ListingHeaderContainer",
+    "horizontalscrollindicator": true,
+    "id": "FlexMain",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "j25743df7b08439caba3876f26fc921f",
+    "kuid": "ab2533c78abb4568bd1ec6a0a835e7fc",
     "layouttype": 2,
-    "name": "kony.ui.FlexContainer",
-    "parent": "ListingContainer",
+    "name": "kony.ui.FlexScrollContainer",
+    "pagingenabled": false,
+    "parent": "ListingForm",
     "pf": "ListingForm",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
+    "scrolldirection": 2,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "wType": "FlexContainer",
+    "track": false,
+    "verticalscrollindicator": true,
+    "wType": "FlexScrollContainer",
     "widgetalignment": 1,
     "zindex": 1
 }

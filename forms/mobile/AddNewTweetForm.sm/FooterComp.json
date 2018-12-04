@@ -39,7 +39,6 @@
     "clipbounds": true,
     "containerweight": 0,
     "data": {
-        "ide_onClick": "AS_UWI_f9caaee50baf47f98034711c9d4626be",
         "text": "Tweet"
     },
     "enablescrolling": true,
@@ -47,11 +46,11 @@
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "e81f2998d086424989344005184a11ee",
+    "kuid": "iaef13759e4f4c8d8551b224a47a9667",
     "layouttype": 2,
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
-    "parent": "FooterContainer",
+    "parent": "AddNewTweetForm",
     "pf": "AddNewTweetForm",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

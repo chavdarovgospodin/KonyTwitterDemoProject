@@ -1,5 +1,4 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizRichText",
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
@@ -8,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "0"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -16,37 +15,47 @@
         0,
         0
     ],
+    "_orientation_": 6,
     "_padding_": [
         0,
         0,
         0,
         0
     ],
-    "_skin_": "s1ce0e62be1f4c90b1a9a2e2e37234e3",
-    "_text_": "\njhafgavfqufgqwgfuywqgf",
+    "_percent_": true,
+    "_skin_": "s34128886e7148699c2c3fda56c71642",
     "_top_": {
         "type": "string",
-        "value": "10dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
         "value": "100%"
     },
-    "_wrapping_": 2,
+    "allboxes": [],
+    "autogrowmode": 1,
     "canUpdateUI": true,
+    "children": [
+        "FlexHeader",
+        "FlexText"
+    ],
+    "clipbounds": true,
     "containerweight": 100,
-    "contentalignment": 4,
-    "id": "postText",
+    "enablescrolling": true,
+    "id": "FlexMain",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "b61d3fdfc0de4439a5438e2f1f3b131d",
-    "linkskin": "s7d88468ef884e69ae9728522ef33e95",
-    "name": "kony.ui.RichText",
-    "parent": "TweetTextContainer",
+    "kuid": "bd81268cb5d94d8fb5925e8c5da28fa0",
+    "layouttype": 4,
+    "name": "kony.ui.FlexContainer",
+    "parent": "AddNewTweetForm",
     "pf": "AddNewTweetForm",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "wType": "RichText",
-    "widgetalignment": 5
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
 }

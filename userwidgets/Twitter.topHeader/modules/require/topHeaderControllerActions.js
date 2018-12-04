@@ -16,9 +16,5 @@ define({
     AS_FlexContainer_de4780cecd544b3697811cb570e0fca9: function AS_FlexContainer_de4780cecd544b3697811cb570e0fca9(eventobject) {
         var self = this;
         return self.navToRegister.call(this);
-    },
-    /** onClick defined for flxPencil **/
-    AS_FlexContainer_d9461255fca34e8ca9afbb572eb6f7f4: function AS_FlexContainer_d9461255fca34e8ca9afbb572eb6f7f4(eventobject) {
-        var self = this;
     }
 });

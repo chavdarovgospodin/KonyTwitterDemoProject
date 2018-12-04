@@ -1,9 +1,10 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "string",
-        "value": "100%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_left_": {
         "type": "string",
@@ -15,15 +16,14 @@
         0,
         0
     ],
-    "_orientation_": 6,
     "_padding_": [
         0,
         0,
         0,
         0
     ],
-    "_percent_": true,
-    "_skin_": "s7edfff8458d408cbb1cda37eb61f6b4",
+    "_skin_": "sbed380c70df490596cb662a85eefa4e",
+    "_text_": "text",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -32,31 +32,22 @@
         "type": "string",
         "value": "100%"
     },
-    "allboxes": [],
-    "autogrowmode": 0,
+    "_wrapping_": 2,
     "canUpdateUI": true,
-    "children": [
-        "TweetHeaderContainer",
-        "TweetTextContainer",
-        "FooterContainer"
-    ],
-    "clipbounds": true,
     "containerweight": 100,
-    "enablescrolling": true,
-    "id": "TweetContainer",
+    "contentalignment": 4,
+    "id": "newTweet",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "c077a6917b164dd78882cb41856c2133",
-    "layouttype": 2,
-    "name": "kony.ui.FlexContainer",
-    "parent": "AddNewTweetForm",
+    "kuid": "j1b9640d68eb489287919006b6295cca",
+    "linkskin": "sd679b27c4b54ff8ab0e60b9e34a53dd",
+    "name": "kony.ui.RichText",
+    "parent": "FlexText",
     "pf": "AddNewTweetForm",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "snapgridsize": 10,
-    "snaptogrid": true,
-    "wType": "FlexContainer",
-    "widgetalignment": 1,
+    "wType": "RichText",
+    "widgetalignment": 5,
     "zindex": 1
 }
