@@ -4,8 +4,8 @@
     "__parentReadjusting__": false,
     "_children_": [],
     "_height_": {
-        "type": "string",
-        "value": "60dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "_left_": {
         "type": "string",
@@ -25,8 +25,7 @@
         0
     ],
     "_percent_": true,
-    "_render_": true,
-    "_skin_": "s34128886e7148699c2c3fda56c71642",
+    "_skin_": "s7edfff8458d408cbb1cda37eb61f6b4",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -35,33 +34,26 @@
         "type": "string",
         "value": "100%"
     },
-    "autogrowmode": 0,
+    "autogrowmode": 1,
     "canUpdateUI": true,
     "clipbounds": true,
     "containerweight": 0,
-    "data": {
-        "backBtnIsVisible": true,
-        "imgIsVisible": false,
-        "isVisiblePencil": false,
-        "titleIsVisible": false
-    },
+    "data": {},
     "enablescrolling": true,
-    "id": "topHeader",
+    "id": "Profile",
     "info": null,
     "iscustomlayout": false,
-    "issegmentchild": false,
     "isvisible": true,
-    "kuid": "d60e912fbe1b4aca92f42d75ddf8b0d1",
+    "kuid": "d40334693fa94a3b801fbb931dbc05ad",
     "layouttype": 2,
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
-    "parent": "flxMain",
-    "pf": "LoginForm",
+    "parent": "ProfileForm",
+    "pf": "ProfileForm",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "sourceUserWidget": "j5265f77f4224d559b15ece285e1ed8a",
-    "wType": "UserWidgetInstance",
-    "zindex": 1
+    "sourceUserWidget": "je7210f054f14dc9bb6d6727554820f2",
+    "wType": "UserWidgetInstance"
 }

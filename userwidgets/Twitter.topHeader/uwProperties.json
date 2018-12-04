@@ -131,6 +131,25 @@
                         "wType": "Label"
                     },
                     "srcWgtKUID": "j28f3918e8f84f42a98619994ded6c7c"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d212b253110b48a788117eabd98e0575",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 7,
+                    "propertyKey": "SignUpisVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "SignUpisVisible",
+                        "srcWidget": "flxSignUp",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "ic542685eaee4e6f8dc543a47cf2ac20"
                 }
             ]
         },

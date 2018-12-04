@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "51dp"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -34,10 +34,6 @@
     },
     "allboxes": [],
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
     "children": [
         "flxButtons",
         "UserInfo"
