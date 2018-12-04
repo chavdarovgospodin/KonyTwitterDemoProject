@@ -42,6 +42,7 @@
     "containerweight": 100,
     "enablescrolling": true,
     "id": "flxImg",
+    "ide_onClick": "AS_FlexContainer_b8c4dc73e76f45fda55498cfb783e786",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,

@@ -22,7 +22,7 @@ define(function() {
         				};
         
         
-        let profileForm = kony.mvc.Navigation(''); // add form name
+        let profileForm = new kony.mvc.Navigation('ProfileForm');
         profileForm.navigate(params);
       }
       
