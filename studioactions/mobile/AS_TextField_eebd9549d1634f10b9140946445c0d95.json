@@ -16,24 +16,6 @@
             "KUID": "g0cba1f734a14070bd755dc33d23237b"
         },
         "language": "js",
-        "actions": [{
-            "id": "SET_FORM_WIDGET_PROPERTY____c18765f2bf1545d886e7139ec2bdffc4",
-            "type": "SET_WIDGET_PROPERTY",
-            "itemType": "FORM",
-            "itemId": "RegisterForm",
-            "widgetId": "FlexBorderPass",
-            "propertyName": "skin",
-            "propertyValue": "skinFlexBorderBlue",
-            "itemKUID": "g0cba1f734a14070bd755dc33d23237b",
-            "widgetKUID": "eb81dabbfeab4eeaa00aca206ecabcf3",
-            "skinKUID": "s7f7bb15dcea4fae95f7a34f481a82f2",
-            "isSkinProperty": true,
-            "wType": "FlexContainer",
-            "currentTheme": "defaultTheme",
-            "forkedPlatform": "all",
-            "parentId": null,
-            "callbackType": null,
-            "widgetPath": "this.view.FlexBorderPass"
-        }]
+        "actions": []
     }
 }
