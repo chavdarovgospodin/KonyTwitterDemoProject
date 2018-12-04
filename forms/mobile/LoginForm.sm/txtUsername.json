@@ -41,7 +41,7 @@
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
-        "value": "50.00%"
+        "value": "51%"
     },
     "containerheight": "",
     "containerheightmode": 1,
