@@ -3,11 +3,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "595dp"
+        "value": "500dp"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "0"
     },
     "_margin_": [
         0,
@@ -23,17 +23,19 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s3f3da58bce74140b319412d33f5ef39",
+    "_skin_": "s0332b7ba6e4408bba1706ff4db02c1b",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "60dp"
     },
     "_width_": {
         "type": "string",
         "value": "100%"
     },
     "allboxes": [],
-    "autogrowmode": 0,
+    "allowhorizontalbounce": false,
+    "allowverticalbounce": true,
+    "bounces": true,
     "canUpdateUI": true,
     "children": [
         "lblMainLogin",
@@ -43,21 +45,27 @@
     ],
     "clipbounds": true,
     "containerweight": 100,
+    "decelerat": false,
+    "dragg": false,
     "enablescrolling": true,
-    "id": "flxLoginCreds",
+    "horizontalscrollindicator": true,
+    "id": "flxLogInFields",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "b497ba7915fe479bbd5eae727d8fb944",
+    "kuid": "af585831eddd424693a1e5f41aa9473b",
     "layouttype": 4,
-    "name": "kony.ui.FlexContainer",
+    "name": "kony.ui.FlexScrollContainer",
+    "pagingenabled": false,
     "parent": "flxMain",
     "pf": "LoginForm",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
+    "scrolldirection": 2,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 1
+    "track": false,
+    "verticalscrollindicator": true,
+    "wType": "FlexScrollContainer",
+    "widgetalignment": 1
 }

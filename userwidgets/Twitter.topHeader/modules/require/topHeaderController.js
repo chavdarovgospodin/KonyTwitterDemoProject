@@ -16,14 +16,14 @@ define(function() {
       },
       
       navToRegister: function () {
-        let nav = kony.mvc.Navigation('RegisterForm');
+        let nav = new kony.mvc.Navigation('RegisterForm');
         nav.navigate();
       },
       
       navToProfile: function () {
         let params = {};
         
-        let nav = kony.mvc.Navigation('ProfileForm');
+        let nav = new kony.mvc.Navigation('ProfileForm');
         nav.navigate(params);
       }
 	};

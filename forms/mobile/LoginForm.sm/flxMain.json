@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "715dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -37,8 +37,8 @@
     "canUpdateUI": true,
     "children": [
         "topHeader",
-        "flxLoginCreds",
-        "FooterComp"
+        "FooterComp",
+        "flxLogInFields"
     ],
     "clipbounds": true,
     "containerweight": 100,
@@ -48,7 +48,7 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "e86a3028955d42f6821234695d7d5356",
-    "layouttype": 4,
+    "layouttype": 2,
     "name": "kony.ui.FlexContainer",
     "parent": "LoginForm",
     "pf": "LoginForm",

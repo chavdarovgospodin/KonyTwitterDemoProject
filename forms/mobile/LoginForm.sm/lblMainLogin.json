@@ -58,7 +58,7 @@
     "isvisible": true,
     "kuid": "j67ab8b780954212b3b2bd180acba95d",
     "name": "kony.ui.Label",
-    "parent": "flxLoginCreds",
+    "parent": "flxLogInFields",
     "pf": "LoginForm",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
