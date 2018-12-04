@@ -30,7 +30,8 @@
     },
     "canUpdateUI": true,
     "children": [
-        "FlexAppContainer"
+        "FlexAppContainer",
+        "Profile"
     ],
     "containerweight": 100,
     "controllerInfo": {
