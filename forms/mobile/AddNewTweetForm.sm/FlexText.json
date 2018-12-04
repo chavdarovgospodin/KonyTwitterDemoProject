@@ -32,6 +32,9 @@
     ],
     "clipbounds": true,
     "containerweight": 100,
+    "disabledSkins": {
+        "focusSkin": "s137c9a61bd64380a4fd27723146dc38"
+    },
     "enablescrolling": true,
     "id": "FlexText",
     "info": null,
