@@ -13,7 +13,7 @@
         },
         "language": "js",
         "actions": [{
-            "id": "INVOKE_FUNCTION___cbfcd29b72a649a48ea4a43bcbdc40dc",
+            "id": "INVOKE_FUNCTION___h2e6a0cdef0049b98cf201841b7db58f",
             "type": "INVOKE_FUNCTION",
             "sequenceKUID": "navToRegister",
             "display": "navToRegister",

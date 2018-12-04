@@ -43,6 +43,7 @@
         "backBtnIsVisible": false,
         "imgIsVisible": false,
         "isVisiblePencil": false,
+        "midIconIsVisible": true,
         "titleIsVisible": false
     },
     "enablescrolling": true,
