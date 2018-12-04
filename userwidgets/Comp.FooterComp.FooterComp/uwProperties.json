@@ -19,6 +19,7 @@
                         "access": "readwrite",
                         "category": "action",
                         "displayName": "onClick",
+                        "srcWidget": "btnFooter",
                         "type": "action",
                         "uiRepresentation": "Label-Label-Button-Button",
                         "wType": "Button"
