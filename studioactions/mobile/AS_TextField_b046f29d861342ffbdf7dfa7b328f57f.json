@@ -16,24 +16,6 @@
             "KUID": "g0cba1f734a14070bd755dc33d23237b"
         },
         "language": "js",
-        "actions": [{
-            "id": "SET_FORM_WIDGET_PROPERTY____e2c5258af1134d19b36cd028f4e4aaed",
-            "type": "SET_WIDGET_PROPERTY",
-            "itemType": "FORM",
-            "itemId": "RegisterForm",
-            "widgetId": "FlexBorderUser",
-            "propertyName": "skin",
-            "propertyValue": "skinFooterBorderDef",
-            "itemKUID": "g0cba1f734a14070bd755dc33d23237b",
-            "widgetKUID": "ce8b416d4c3f40b5a150fd25c588be2c",
-            "skinKUID": "s58c781e595444e3ab7b57966062f94b",
-            "isSkinProperty": true,
-            "wType": "FlexContainer",
-            "currentTheme": "defaultTheme",
-            "forkedPlatform": "all",
-            "parentId": null,
-            "callbackType": null,
-            "widgetPath": "this.view.FlexBorderUser"
-        }]
+        "actions": []
     }
 }
