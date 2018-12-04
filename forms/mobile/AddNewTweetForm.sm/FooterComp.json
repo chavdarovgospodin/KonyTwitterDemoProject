@@ -1,10 +1,12 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_bottom_": {
         "type": "string",
         "value": "0dp"
     },
+    "_children_": [],
     "_height_": {
         "type": "string",
         "value": "60dp"
@@ -19,7 +21,7 @@
         0,
         0
     ],
-    "_orientation_": 6,
+    "_orientation_": 1,
     "_padding_": [
         0,
         0,
@@ -27,38 +29,34 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s7edfff8458d408cbb1cda37eb61f6b4",
+    "_skin_": "s723c1fffd5c485187880d3233d37dd9",
     "_width_": {
         "type": "string",
         "value": "100%"
     },
-    "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
-    "children": [
-        "FooterComp"
-    ],
     "clipbounds": true,
-    "containerweight": 100,
+    "containerweight": 0,
+    "data": {
+        "ide_onClick": "AS_UWI_f9caaee50baf47f98034711c9d4626be",
+        "text": "Tweet"
+    },
     "enablescrolling": true,
-    "id": "FooterContainer",
+    "id": "FooterComp",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ba89828938de4b29aacf197635b37f79",
+    "kuid": "e81f2998d086424989344005184a11ee",
     "layouttype": 2,
-    "name": "kony.ui.FlexContainer",
-    "parent": "TweetContainer",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "FooterContainer",
     "pf": "AddNewTweetForm",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 1
+    "sourceUserWidget": "a9a365372b764432b04fd3936ed600ec",
+    "wType": "UserWidgetInstance"
 }

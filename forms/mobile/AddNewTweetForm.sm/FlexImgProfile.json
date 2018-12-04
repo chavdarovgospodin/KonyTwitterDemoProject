@@ -1,17 +1,9 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_bottom_": {
-        "type": "string",
-        "value": "0dp"
-    },
     "_height_": {
         "type": "string",
         "value": "60dp"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -27,38 +19,42 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s7edfff8458d408cbb1cda37eb61f6b4",
+    "_right_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_skin_": "s34128886e7148699c2c3fda56c71642",
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "15%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "centerx": {
+    "centery": {
         "type": "string",
         "value": "50%"
     },
     "children": [
-        "FooterComp"
+        "flxImgUser"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "FooterContainer",
+    "id": "FlexImgProfile",
+    "ide_onClick": "AS_FlexContainer_i9c9e9f779974ded831ab3dbe979f100",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ba89828938de4b29aacf197635b37f79",
+    "kuid": "ja23b33125c249e8b007a58a61e09357",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "TweetContainer",
+    "parent": "TweetHeaderContainer",
     "pf": "AddNewTweetForm",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 1
+    "widgetalignment": 1
 }

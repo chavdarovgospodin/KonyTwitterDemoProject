@@ -1,0 +1,29 @@
+{
+    "AS_UWI_a7d7ce6afe82464c9ef076cf6ee1a4c3": {
+        "id": "AS_UWI_a7d7ce6afe82464c9ef076cf6ee1a4c3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "ProfileForm",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b5049953859c41afbca8b398a6bc5378"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___e8f9bcf7e2924abc955d98644889f29e",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "ListingForm",
+            "formKUID": "f55e6944c1f845d7aefcc27134a44dff",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }]
+    }
+}

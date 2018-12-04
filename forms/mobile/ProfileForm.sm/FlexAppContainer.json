@@ -2,12 +2,8 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "string",
-        "value": "100%"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "0%"
+        "type": "number",
+        "value": "400"
     },
     "_margin_": [
         0,
@@ -24,10 +20,6 @@
     ],
     "_percent_": true,
     "_skin_": "sfb30cbbad014ee399290415d95d1ceb",
-    "_top_": {
-        "type": "string",
-        "value": "0%"
-    },
     "_width_": {
         "type": "string",
         "value": "100%"
@@ -35,7 +27,9 @@
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "Profile"
+    ],
     "clipbounds": true,
     "containerweight": 100,
     "defaultunit": 3,
@@ -48,7 +42,7 @@
     "layouttype": 4,
     "masterType": 1,
     "name": "kony.ui.FlexContainer",
-    "parent": "ProfileForm",
+    "parent": "FlexMain",
     "pf": "ProfileForm",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

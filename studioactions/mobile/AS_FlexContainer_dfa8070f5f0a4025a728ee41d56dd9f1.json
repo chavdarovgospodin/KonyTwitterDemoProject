@@ -1,0 +1,29 @@
+{
+    "AS_FlexContainer_dfa8070f5f0a4025a728ee41d56dd9f1": {
+        "id": "AS_FlexContainer_dfa8070f5f0a4025a728ee41d56dd9f1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "AddNewTweetForm",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ed777833602d432fb0fbbb4b1b2b4013"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___d1f56daa0ee9445798c7fce31378cd24",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "ListingForm",
+            "formKUID": "f55e6944c1f845d7aefcc27134a44dff",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }]
+    }
+}

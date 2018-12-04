@@ -7,7 +7,26 @@
         },
         "events": {
             "custom": [],
-            "passthrough": []
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "aa7ba273c0ae40f2b9198646f5e4bb2c",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "PencilClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "PencilClick",
+                        "srcWidget": "flxPencil",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "ic7cd2ff6bd04a90a9534eeac0aac047"
+                }
+            ]
         },
         "groups": {
             "apis": [],

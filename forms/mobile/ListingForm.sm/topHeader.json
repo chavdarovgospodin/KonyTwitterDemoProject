@@ -1,6 +1,8 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
     "__parentReadjusting__": false,
+    "_children_": [],
     "_height_": {
         "type": "string",
         "value": "60dp"
@@ -15,7 +17,7 @@
         0,
         0
     ],
-    "_orientation_": 6,
+    "_orientation_": 1,
     "_padding_": [
         0,
         0,
@@ -23,7 +25,8 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s7edfff8458d408cbb1cda37eb61f6b4",
+    "_render_": true,
+    "_skin_": "s34128886e7148699c2c3fda56c71642",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -32,33 +35,36 @@
         "type": "string",
         "value": "100%"
     },
-    "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
-    "children": [
-        "topHeader"
-    ],
     "clipbounds": true,
-    "containerweight": 100,
+    "containerweight": 0,
+    "data": {
+        "SignUpisVisible": false,
+        "backBtnIsVisible": false,
+        "ide_PencilClick": "AS_UWI_dfd506c1db574237acdaa768a6dd7538",
+        "imgIsVisible": true,
+        "isVisiblePencil": true,
+        "midIconIsVisible": false,
+        "titleIsVisible": true
+    },
     "enablescrolling": true,
-    "id": "ListingHeaderContainer",
+    "id": "topHeader",
     "info": null,
     "iscustomlayout": false,
+    "issegmentchild": false,
     "isvisible": true,
-    "kuid": "j25743df7b08439caba3876f26fc921f",
+    "kuid": "dba7a63b2f1240d8a1d3f01d086a4213",
     "layouttype": 2,
-    "name": "kony.ui.FlexContainer",
-    "parent": "ListingContainer",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "ListingHeaderContainer",
     "pf": "ListingForm",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "wType": "FlexContainer",
-    "widgetalignment": 1,
+    "sourceUserWidget": "j5265f77f4224d559b15ece285e1ed8a",
+    "wType": "UserWidgetInstance",
     "zindex": 1
 }

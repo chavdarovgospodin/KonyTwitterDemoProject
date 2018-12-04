@@ -1,0 +1,21 @@
+{
+    "AS_FlexContainer_i9c9e9f779974ded831ab3dbe979f100": {
+        "id": "AS_FlexContainer_i9c9e9f779974ded831ab3dbe979f100",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_baa486e708cd4351a9c97e6ce51e3e40",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "navToProfile",
+            "display": "navToProfile",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

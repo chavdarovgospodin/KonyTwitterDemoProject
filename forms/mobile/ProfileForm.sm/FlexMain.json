@@ -1,17 +1,13 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_bottom_": {
-        "type": "string",
-        "value": "0dp"
-    },
     "_height_": {
-        "type": "string",
-        "value": "60dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "_left_": {
-        "type": "string",
-        "value": "0dp"
+        "type": "number",
+        "value": "0"
     },
     "_margin_": [
         0,
@@ -27,33 +23,35 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s7edfff8458d408cbb1cda37eb61f6b4",
+    "_skin_": "s34128886e7148699c2c3fda56c71642",
+    "_top_": {
+        "type": "number",
+        "value": "0"
+    },
     "_width_": {
         "type": "string",
         "value": "100%"
     },
     "allboxes": [],
-    "autogrowmode": 0,
+    "autogrowmode": 1,
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
     "children": [
-        "FooterComp"
+        "FlexHeader",
+        "FlexAppContainer",
+        "FlexMsg"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "FooterContainer",
+    "id": "FlexMain",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ba89828938de4b29aacf197635b37f79",
-    "layouttype": 2,
+    "kuid": "c125799ebb0f4e45a7c307f36bc77df9",
+    "layouttype": 4,
     "name": "kony.ui.FlexContainer",
-    "parent": "TweetContainer",
-    "pf": "AddNewTweetForm",
+    "parent": "ProfileForm",
+    "pf": "ProfileForm",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "snapgridsize": 10,

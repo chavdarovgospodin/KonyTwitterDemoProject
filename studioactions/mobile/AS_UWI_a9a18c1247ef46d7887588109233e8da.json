@@ -1,0 +1,29 @@
+{
+    "AS_UWI_a9a18c1247ef46d7887588109233e8da": {
+        "id": "AS_UWI_a9a18c1247ef46d7887588109233e8da",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "RegisterForm",
+            "type": "forms",
+            "platform": "",
+            "KUID": "g0cba1f734a14070bd755dc33d23237b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___i5ce511792cc401787d6047d54e5174b",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "LoginForm",
+            "formKUID": "j7e8739115b84811906c7c8ac585457d",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }]
+    }
+}
