@@ -40,9 +40,10 @@
     "clipbounds": true,
     "containerweight": 0,
     "data": {
-        "backBtnIsVisible": true,
+        "backBtnIsVisible": false,
         "imgIsVisible": false,
         "isVisiblePencil": false,
+        "midIconIsVisible": true,
         "titleIsVisible": false
     },
     "enablescrolling": true,
