@@ -49,7 +49,7 @@ define({
 
 
       //fetch user data and populate Profile Form with showTweets()
-      showTweets();
+      this.showTweets();
     }
   },
 
