@@ -10,8 +10,8 @@ define(function() {
 		},
       
       
-      navToLogin: function () {
-        let nav = kony.mvc.Navigation('LoginForm');
+      navToPrevious: function () {
+        let nav = new kony.mvc.Navigation(kony.application.getPreviousForm().id);
         nav.navigate();
       },
       

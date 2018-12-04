@@ -1,0 +1,17 @@
+{
+    "AS_Button_h8311f07214a4c7ba04d51c89e5f666e": {
+        "id": "AS_Button_h8311f07214a4c7ba04d51c89e5f666e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwu5c051a34a9b419693cd6e609144e6bc",
+            "type": "userwidgets",
+            "KUID": "u5c051a34a9b419693cd6e609144e6bc"
+        },
+        "language": "js",
+        "actions": []
+    }
+}
