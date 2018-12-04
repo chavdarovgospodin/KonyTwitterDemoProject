@@ -48,7 +48,7 @@
     "kuid": "b59c26bf6054443ba9a69a268d086c72",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "FlexMain",
+    "parent": "FlexScrollMain",
     "pf": "ProfileForm",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

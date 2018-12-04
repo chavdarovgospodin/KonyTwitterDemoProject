@@ -4,10 +4,13 @@ define({
     */
     /** onClick defined for FlexImgProfile **/
     AS_FlexContainer_a4718dff5bba4de091f5b6dedf34e4ff: function AS_FlexContainer_a4718dff5bba4de091f5b6dedf34e4ff(eventobject) {
+        var self = this;
         return self.navToProfile.call(this);
     },
     /** onClick defined for FlexImgClose **/
     AS_FlexContainer_fe6058ba58a646e6a7bb9798f87efb4c: function AS_FlexContainer_fe6058ba58a646e6a7bb9798f87efb4c(eventobject) {
-        ListingForm.show();
+        var self = this;
+        var ntf = new kony.mvc.Navigation("ListingForm");
+        ntf.navigate();
     }
 });
