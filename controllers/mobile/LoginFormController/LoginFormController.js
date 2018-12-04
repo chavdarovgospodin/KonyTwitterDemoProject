@@ -13,7 +13,7 @@ define({
      this.view.lblErrUsername.isVisible = true;
    }else{
      validE = true;
-     this.view.flxBorderUsername.skin = 'flxDefBorderSkin';
+     this.view.flxBorderUsername.skin = 'sknFlxDefBorder';
      this.view.lblErrUsername.isVisible = false;
    }
    
@@ -23,7 +23,7 @@ define({
      this.view.lblErrPassword.isVisible = true;
    }else{
      validP = true;
-     this.view.flxBorderPassword.skin = 'flxDefBorderSkin';
+     this.view.flxBorderPassword.skin = 'sknFlxDefBorder';
      this.view.lblErrPassword.isVisible = false;
    }
    
