@@ -2,12 +2,8 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
-    },
-    "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "45dp"
     },
     "_margin_": [
         0,
@@ -23,37 +19,46 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s7edfff8458d408cbb1cda37eb61f6b4",
+    "_right_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_skin_": "sb4c6b82e0764587ae15d4c63939d532",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "20%"
     },
     "allboxes": [],
-    "autogrowmode": 1,
+    "autogrowmode": 0,
     "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50.00%"
+    },
     "children": [
-        "ProfileContainer"
+        "follow"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "Profile",
+    "id": "FollowButtonContainer",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "je7210f054f14dc9bb6d6727554820f2",
+    "kuid": "c4c4c82453e3431f99b1b163c84ba66a",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "userwidgetmodel",
+    "parent": "flxButtons",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
-    "widgetalignment": 1
+    "widgetalignment": 1,
+    "zindex": 1
 }

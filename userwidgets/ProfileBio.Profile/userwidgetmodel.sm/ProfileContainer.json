@@ -1,11 +1,9 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizImage2",
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "380dp"
     },
     "_left_": {
         "type": "string",
@@ -17,14 +15,15 @@
         0,
         0
     ],
+    "_orientation_": 6,
     "_padding_": [
         0,
         0,
         0,
         0
     ],
-    "_skin_": "sdf4d138ffca48c5bca4358dfd3166df",
-    "_src_": "imagedrag.png",
+    "_percent_": true,
+    "_skin_": "s34128886e7148699c2c3fda56c71642",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -33,27 +32,29 @@
         "type": "string",
         "value": "100%"
     },
+    "allboxes": [],
+    "autogrowmode": 0,
     "canUpdateUI": true,
+    "children": [
+        "ImageContainer",
+        "BioContainer"
+    ],
+    "clipbounds": true,
     "containerweight": 100,
-    "context": {
-        "channel": "mobile",
-        "formID": "uwu5ed2741ef294b71866b3819045f6610",
-        "templateType": "userwidgets",
-        "topLevelBox": null
-    },
-    "id": "Image0f489d1cec0e549",
-    "imagescalemode": 0,
+    "enablescrolling": true,
+    "id": "ProfileContainer",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "b80b8df5edf84c6bade85072d5d5d8de",
-    "name": "kony.ui.Image2",
-    "parent": "CoverPhoto",
+    "kuid": "e7693ee0b25947b18c20feff7ef44001",
+    "layouttype": 4,
+    "name": "kony.ui.FlexContainer",
+    "parent": "Profile",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "srcType": 1,
-    "wType": "Image",
-    "widgetalignment": 5,
-    "zindex": 1
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
 }

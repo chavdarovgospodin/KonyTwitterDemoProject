@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "0"
     },
     "_margin_": [
         0,
@@ -23,10 +23,10 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s7edfff8458d408cbb1cda37eb61f6b4",
+    "_skin_": "s34128886e7148699c2c3fda56c71642",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "0"
     },
     "_width_": {
         "type": "string",
@@ -36,19 +36,20 @@
     "autogrowmode": 1,
     "canUpdateUI": true,
     "children": [
-        "ProfileContainer"
+        "FollowingContainer",
+        "FollowersContainer"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "Profile",
+    "id": "FollowingFollowersContainer",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "je7210f054f14dc9bb6d6727554820f2",
-    "layouttype": 2,
+    "kuid": "c7cc19526bd04d98b268df51f57d239c",
+    "layouttype": 3,
     "name": "kony.ui.FlexContainer",
-    "parent": "userwidgetmodel",
+    "parent": "UserInfo",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

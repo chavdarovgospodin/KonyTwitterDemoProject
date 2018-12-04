@@ -2,12 +2,12 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "110dp"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "15dp"
     },
     "_margin_": [
         0,
@@ -23,37 +23,38 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s7edfff8458d408cbb1cda37eb61f6b4",
+    "_skin_": "sb17116590384f6c8b987cb8c42792d2",
     "_top_": {
-        "type": "string",
-        "value": "0dp"
+        "type": "number",
+        "value": "120"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "110dp"
     },
     "allboxes": [],
-    "autogrowmode": 1,
+    "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "ProfileContainer"
+        "profileImage"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "Profile",
+    "id": "ProfilePhotoFlex",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "je7210f054f14dc9bb6d6727554820f2",
+    "kuid": "f3c03ebfe7d040369d0faf99abeab646",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "userwidgetmodel",
+    "parent": "ImageContainer",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
-    "widgetalignment": 1
+    "widgetalignment": 1,
+    "zindex": 2
 }
