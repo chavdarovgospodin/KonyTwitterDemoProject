@@ -39,7 +39,9 @@
         "type": "string",
         "value": "50%"
     },
-    "children": [],
+    "children": [
+        "topHeader"
+    ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,

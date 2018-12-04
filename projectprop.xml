@@ -720,8 +720,5 @@
     <attributes name="certs_key_store_type" value="JKS"/>
     <attributes name="ANDROIDWEAR_WRITE_SYNC_SETTINGS" value="false"/>
     <attributes name="spaandroidtab800basefontsize" value="14"/>
-    <attributes name="cloud_url" value="https://app-factory-dev.konycloud.com"/>
-    <attributes name="cloud_env_name" value="SoftServe-App Factory Dev"/>
-    <attributes name="cloud_env_GUID" value="13a3f619-2156-49f0-a478-14a5ac801e27"/>
     <attributes name="defaultlocalekey" value=""/>
 </properties>

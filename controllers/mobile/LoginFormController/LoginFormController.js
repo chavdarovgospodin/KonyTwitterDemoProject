@@ -5,7 +5,7 @@ define({
    var email = this.view.txtUsername.text;
    var password = this.view.txtPassword.text;
    var validE, validP = false;
-   var ntf = new kony.mvc.Navigation('ProfileForm');
+   var ntf = new kony.mvc.Navigation('ListingForm');
    
    if(!kony.string.isValidEmail(email)){
      validE = false;

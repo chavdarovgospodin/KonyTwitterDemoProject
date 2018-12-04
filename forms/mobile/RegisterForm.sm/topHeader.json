@@ -42,6 +42,7 @@
     "data": {
         "SignUpisVisible": false,
         "backBtnIsVisible": true,
+        "ide_PencilClick": "AS_UWI_a9a18c1247ef46d7887588109233e8da",
         "imgIsVisible": false,
         "isVisiblePencil": false,
         "midIconIsVisible": true,

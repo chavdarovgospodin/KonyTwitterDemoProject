@@ -105,5 +105,11 @@ define({
                 self.view.FlexBorderPass.skin = "skinFooterBorderDef";
             })();
         }
+    },
+    /** PencilClick defined for topHeader **/
+    AS_UWI_a9a18c1247ef46d7887588109233e8da: function AS_UWI_a9a18c1247ef46d7887588109233e8da(eventobject) {
+        var self = this;
+        var ntf = new kony.mvc.Navigation("LoginForm");
+        ntf.navigate();
     }
 });

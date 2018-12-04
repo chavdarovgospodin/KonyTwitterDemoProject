@@ -43,7 +43,10 @@
         "type": "string",
         "value": "50.00%"
     },
-    "children": [],
+    "children": [
+        "msg",
+        "FlexBorderPass"
+    ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,

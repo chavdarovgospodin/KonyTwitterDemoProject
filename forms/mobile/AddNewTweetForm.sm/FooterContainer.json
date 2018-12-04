@@ -39,7 +39,9 @@
         "type": "string",
         "value": "50%"
     },
-    "children": [],
+    "children": [
+        "FooterComp"
+    ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,

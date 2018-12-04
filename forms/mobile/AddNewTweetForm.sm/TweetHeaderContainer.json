@@ -39,7 +39,10 @@
         "type": "string",
         "value": "50%"
     },
-    "children": [],
+    "children": [
+        "FlexImgProfile",
+        "FlexImgClose"
+    ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
