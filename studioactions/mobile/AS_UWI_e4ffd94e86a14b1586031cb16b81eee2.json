@@ -1,0 +1,28 @@
+{
+    "AS_UWI_e4ffd94e86a14b1586031cb16b81eee2": {
+        "id": "AS_UWI_e4ffd94e86a14b1586031cb16b81eee2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "LoginForm",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j7e8739115b84811906c7c8ac585457d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___a1bbf907f923402b8a2c394eb6438d05",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "validate",
+            "display": "validate",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

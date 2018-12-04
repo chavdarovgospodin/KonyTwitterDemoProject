@@ -29,7 +29,7 @@
     "project.type": "js",
     "project_version": "sprint32",
     "referenceWidth": "375",
-    "startupformkey": "g0cba1f734a14070bd755dc33d23237b",
+    "startupformkey": "j7e8739115b84811906c7c8ac585457d",
     "vendornamekey": "KonyLabs",
     "winmobileguidkey": "",
     "defaulttheme": "defaultTheme",
@@ -242,11 +242,11 @@
     "accountCloudGuid": "990b7119-9591-4481-a42a-75650efa137e",
     "projectCloudGuid": "52ee975a-e262-49a2-b558-6c468772bea2",
     "prototype": {
-        "createdOn": "2018-12-03T13:39:02.470Z",
-        "createdById": "a166c97c-0d64-4d6d-9729-0596d5fb01b7",
+        "PublishMode": "public",
+        "resourceId": "7174ed3b-da0a-4b23-bffd-ea0c36aeb1d7",
         "createdBy": "Gospodin Chavdarov",
         "shareGuid": "R5QWB",
-        "resourceId": "7174ed3b-da0a-4b23-bffd-ea0c36aeb1d7",
-        "PublishMode": "public"
+        "createdOn": "2018-12-03T13:39:02.470Z",
+        "createdById": "a166c97c-0d64-4d6d-9729-0596d5fb01b7"
     }
 }
