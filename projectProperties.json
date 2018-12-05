@@ -248,5 +248,13 @@
         "shareGuid": "R5QWB",
         "createdOn": "2018-12-03T13:39:02.470Z",
         "createdById": "a166c97c-0d64-4d6d-9729-0596d5fb01b7"
+    },
+    "kfAppInfo": {
+        "990b7119-9591-4481-a42a-75650efa137e": {
+            "id": "5703e1c9-8cce-4956-9faf-b41c5bebf134",
+            "baseId": "5703e1c9-8cce-4956-9faf-b41c5bebf134",
+            "version": "1.0",
+            "appName": "BGTwitterApp2"
+        }
     }
 }
