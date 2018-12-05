@@ -12,5 +12,10 @@ define({
         var self = this;
         var ntf = new kony.mvc.Navigation("LoginForm");
         ntf.navigate();
+    },
+    /** preShow defined for RegisterForm **/
+    AS_Form_eaa79c1abfdc442087c8fea56cb3fd88: function AS_Form_eaa79c1abfdc442087c8fea56cb3fd88(eventobject) {
+        var self = this;
+        return self.defaultInputProp.call(this);
     }
 });

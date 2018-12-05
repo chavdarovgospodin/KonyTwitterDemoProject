@@ -2,20 +2,12 @@ define({
 
   valiteForms: function () {
 
-
     if (this.validateInputFields(this.view.textBoxUsername) && this.validateInputFields(this.view.textBoxPassword) && this.validateRegex(this.view.textBoxUsername)) {    
       alert('user saved!');
       var ntf = new kony.mvc.Navigation("ListingForm");
       ntf.navigate();
-      this.view.textBoxUsername.text = '';
-      this.view.textBoxPassword.text = '';
-      this.view.FlexBorderUser.skin = 'sknFlxDefBorder';
-      this.view.FlexBorderPass.skin = 'sknFlxDefBorder';
       //save this user to the database
     }
-
-
-
 
     if(this.validateInputFields(this.view.textBoxUsername) && this.validateRegex(this.view.textBoxUsername)) {
       this.view.lblInvalidUsername.isVisible = false;
@@ -23,7 +15,7 @@ define({
     }
     else {
       this.view.lblInvalidUsername.isVisible = true;
-      this.view.FlexBorderUser.skin = 'flxBorderErrSkin';
+      this.view.FlexBorderUser.skin = 'sknFlxBorderErr';
     }
 
     if(this.validateInputFields(this.view.textBoxPassword)) {
@@ -32,7 +24,7 @@ define({
     }
     else {
       this.view.lblInvalidPass.isVisible = true;
-      this.view.FlexBorderPass.skin = 'flxBorderErrSkin';
+      this.view.FlexBorderPass.skin = 'sknFlxBorderErr';
     }
 
   },
@@ -45,6 +37,15 @@ define({
   validateRegex: function (input) {
     var regex = (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/);
     return input.text.match(regex);
+  },
+
+  defaultInputProp: function() {
+    this.view.textBoxUsername.text = '';
+    this.view.textBoxPassword.text = '';
+    this.view.lblInvalidUsername.isVisible = false;
+    this.view.FlexBorderUser.skin = 'sknFlxDefBorder';
+    this.view.lblInvalidPass.isVisible = false;
+    this.view.FlexBorderPass.skin = 'sknFlxDefBorder';
   }
 
 });
