@@ -2,11 +2,11 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "string",
-        "value": "100%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_left_": {
-        "type": "string",
+        "type": "number",
         "value": "0"
     },
     "_margin_": [
@@ -23,9 +23,9 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s0332b7ba6e4408bba1706ff4db02c1b",
+    "_skin_": "s34128886e7148699c2c3fda56c71642",
     "_top_": {
-        "type": "string",
+        "type": "number",
         "value": "0"
     },
     "_width_": {
@@ -33,38 +33,30 @@
         "value": "100%"
     },
     "allboxes": [],
-    "allowhorizontalbounce": false,
-    "allowverticalbounce": true,
-    "bounces": true,
+    "autogrowmode": 1,
     "canUpdateUI": true,
     "children": [
         "FlexHeader",
-        "Profile",
+        "FlexAppContainer",
         "FlexMsg"
     ],
     "clipbounds": true,
     "containerweight": 100,
-    "decelerat": false,
-    "dragg": false,
     "enablescrolling": true,
-    "horizontalscrollindicator": true,
-    "id": "FlexScrollMain",
+    "id": "FlexMain",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ddd56ccb4f9f4760aeb24e6f6352c1ac",
+    "kuid": "c125799ebb0f4e45a7c307f36bc77df9",
     "layouttype": 4,
-    "name": "kony.ui.FlexScrollContainer",
-    "pagingenabled": false,
+    "name": "kony.ui.FlexContainer",
     "parent": "ProfileForm",
     "pf": "ProfileForm",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "scrolldirection": 2,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "track": false,
-    "verticalscrollindicator": true,
-    "wType": "FlexScrollContainer",
-    "widgetalignment": 1
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
 }

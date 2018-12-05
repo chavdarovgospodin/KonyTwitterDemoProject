@@ -11,11 +11,5 @@ define({
         var self = this;
         var ntf = new kony.mvc.Navigation("ListingForm");
         ntf.navigate();
-    },
-    /** onClick defined for FooterComp **/
-    AS_UWI_b1fbf4b76ed24379a2e6fdb5c97d7d89: function AS_UWI_b1fbf4b76ed24379a2e6fdb5c97d7d89(eventobject) {
-        var self = this;
-        var ntf = new kony.mvc.Navigation("ListingForm");
-        ntf.navigate();
     }
 });

@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "15dp"
     },
     "_margin_": [
         0,
@@ -26,7 +26,7 @@
     "_skin_": "s34128886e7148699c2c3fda56c71642",
     "_width_": {
         "type": "string",
-        "value": "20%"
+        "value": "60dp"
     },
     "allboxes": [],
     "autogrowmode": 0,
@@ -36,7 +36,7 @@
         "value": "50%"
     },
     "children": [
-        "FleximgTimes"
+        "CopyflxImgUser0a6296232c37949"
     ],
     "clipbounds": true,
     "containerweight": 100,

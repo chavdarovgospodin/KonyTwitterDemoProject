@@ -20,11 +20,11 @@
   "iphone": {
     "font_name": "System"
   },
-  "isDefaultSkin": true,
+  "isDefaultSkin": false,
   "kiosk": {
     "font_name": "None"
   },
-  "kuid": "s88babbbc97e46128d1ce03373fa57db",
+  "kuid": "s8d9d0f3447f4cf180b1d9b93c6f1bf8",
   "spaan": {
     "font_name": "Helvetica"
   },

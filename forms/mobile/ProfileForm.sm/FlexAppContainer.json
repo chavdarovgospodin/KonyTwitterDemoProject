@@ -1,17 +1,9 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_bottom_": {
-        "type": "number",
-        "value": "0"
-    },
     "_height_": {
-        "type": "string",
-        "value": "5dp"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "0"
+        "type": "number",
+        "value": "400"
     },
     "_margin_": [
         0,
@@ -27,7 +19,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s34128886e7148699c2c3fda56c71642",
+    "_skin_": "sfb30cbbad014ee399290415d95d1ceb",
     "_width_": {
         "type": "string",
         "value": "100%"
@@ -35,24 +27,28 @@
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "Profile"
+    ],
     "clipbounds": true,
     "containerweight": 100,
+    "defaultunit": 3,
     "enablescrolling": true,
-    "id": "FlexLineSeparator",
+    "id": "FlexAppContainer",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ad6a6d0b460a4cc9936144b72c1f3bd4",
-    "layouttype": 2,
+    "kuid": "d9fccfcb18b54c7e8c6b174058ecd111",
+    "layouttype": 4,
     "masterType": 1,
     "name": "kony.ui.FlexContainer",
-    "parent": "ProfileContainer",
-    "pf": "userwidgetmodel",
+    "parent": "FlexMain",
+    "pf": "ProfileForm",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
-    "widgetalignment": 1
+    "widgetalignment": 1,
+    "zindex": 1
 }

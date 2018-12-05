@@ -21,87 +21,21 @@
                 {
                     "access": "Enable",
                     "group": "General",
-                    "kuid": "hc6d21ed939041118030cf4c6107f3c4",
-                    "originalPropertyKey": "src",
+                    "kuid": "jd20782387534bcc86f236f9d91b921a",
+                    "originalPropertyKey": "isVisible",
                     "propertyIndex": 1,
-                    "propertyKey": "imgUser",
+                    "propertyKey": "isVisible1",
                     "pw": {
                         "access": "readwrite",
-                        "category": "widget",
+                        "category": "look",
                         "dependentKeysKUIDs": null,
-                        "displayName": "imageUser",
+                        "displayName": "isVisible1",
                         "srcWidget": "imgUser",
-                        "type": "string",
-                        "uiConfig": {
-                            "Button": {
-                                "dataRetrieverId": "Imagelist",
-                                "dataUpdaterId": "Imagelist",
-                                "popupId": "Imagelist",
-                                "type": "ImageEditBtn"
-                            },
-                            "Label": {}
-                        },
-                        "uiRepresentation": "Label-Label-Button",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
                         "wType": "Image"
                     },
                     "srcWgtKUID": "bbc668fa713f4b208203735229f12d2e"
-                },
-                {
-                    "access": "Enable",
-                    "group": "General",
-                    "kuid": "i2fa4d9d6c1446c78bced26e243db03e",
-                    "originalPropertyKey": "text",
-                    "propertyIndex": 2,
-                    "propertyKey": "tweetMsg",
-                    "pw": {
-                        "access": "readwrite",
-                        "category": "look",
-                        "dependentKeysKUIDs": null,
-                        "displayName": "tweetMsg",
-                        "srcWidget": "RichTextMsg",
-                        "type": "string",
-                        "uiRepresentation": "Label-Textarea",
-                        "wType": "RichText"
-                    },
-                    "srcWgtKUID": "feb4b3beba364b86b94a62a780bd77bd"
-                },
-                {
-                    "access": "Enable",
-                    "group": "General",
-                    "kuid": "i145eef2973749299aa8c94c507c6489",
-                    "originalPropertyKey": "text",
-                    "propertyIndex": 3,
-                    "propertyKey": "userName",
-                    "pw": {
-                        "access": "readwrite",
-                        "category": "look",
-                        "dependentKeysKUIDs": null,
-                        "displayName": "userName",
-                        "srcWidget": "lblUserName",
-                        "type": "string",
-                        "uiRepresentation": "Label-Textbox",
-                        "wType": "Label"
-                    },
-                    "srcWgtKUID": "e0010a8bf6754d89bb8b8c0185e34fec"
-                },
-                {
-                    "access": "Enable",
-                    "group": "General",
-                    "kuid": "b8022a013ce74b4c894404d67bdc62a8",
-                    "originalPropertyKey": "text",
-                    "propertyIndex": 4,
-                    "propertyKey": "userEmail",
-                    "pw": {
-                        "access": "readwrite",
-                        "category": "look",
-                        "dependentKeysKUIDs": null,
-                        "displayName": "userEmail",
-                        "srcWidget": "lblUserHandle",
-                        "type": "string",
-                        "uiRepresentation": "Label-Textbox",
-                        "wType": "Label"
-                    },
-                    "srcWgtKUID": "iea67427d4fb441a81b5804f86aef16b"
                 }
             ]
         },

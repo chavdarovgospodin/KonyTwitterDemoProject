@@ -9,41 +9,27 @@ define({
    
    if(!kony.string.isValidEmail(email)){
      validE = false;
-     this.view.flxBorderUsername.skin = 'sknFlxBorderErr';
+     this.view.flxBorderUsername.skin = 'flxBorderErrSkin';
      this.view.lblErrUsername.isVisible = true;
    }else{
      validE = true;
-     this.view.flxBorderUsername.skin = 'sknFlxDefBorder';
+     this.view.flxBorderUsername.skin = 'flxDefBorderSkin';
      this.view.lblErrUsername.isVisible = false;
    }
    
    if((password === null) || (password.length < 1)){
      validP = false;
-     this.view.flxBorderPassword.skin = 'sknFlxBorderErr';
+     this.view.flxBorderPassword.skin = 'flxBorderErrSkin';
      this.view.lblErrPassword.isVisible = true;
    }else{
      validP = true;
-     this.view.flxBorderPassword.skin = 'sknFlxDefBorder';
+     this.view.flxBorderPassword.skin = 'flxDefBorderSkin';
      this.view.lblErrPassword.isVisible = false;
    }
    
    if(validE && validP){
-     
-     //save email and pass in a JS object
-     let userInput = {
-       userName: email,
-       userPassword: password
-     };
-     
-     //navigate to Listing Form and pass userName and pass
-     ntf.navigate(userInput);
+     ntf.navigate();
    }
- },
-  
-  
-  clearInput: function () {
-    this.view.txtUsername.text = '';
-    this.view.txtPassword.text = '';
-  }
+ }
 
  });

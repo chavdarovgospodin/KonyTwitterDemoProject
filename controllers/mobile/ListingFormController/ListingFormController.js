@@ -1,20 +1,5 @@
 define({ 
 
-  createNewTweet: function () {
-    //get data from db
+ //Type your controller code here 
 
-    var newComp = new Twitter.msg({
-      "isVisible": true,
-    }, {}, {});
-
-    this.view.FlexMain.add(newComp);
-
-    newComp.userName = name;
-    newComp.userEmail = email;
-    newComp.tweetMsg = description;
-    newComp.imgUser = image;
-
-  },
-
-
-});
+ });
