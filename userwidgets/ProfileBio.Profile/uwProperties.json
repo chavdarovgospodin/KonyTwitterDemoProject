@@ -131,62 +131,6 @@
                         "wType": "Label"
                     },
                     "srcWgtKUID": "aaed2817ce6b461a85e909323607cb86"
-                },
-                {
-                    "access": "Enable",
-                    "group": "General",
-                    "kuid": "gef0c178f41e4e3880fb4c1c0fe9140e",
-                    "originalPropertyKey": "src",
-                    "propertyIndex": 7,
-                    "propertyKey": "profilePicSrc",
-                    "pw": {
-                        "access": "readwrite",
-                        "category": "widget",
-                        "dependentKeysKUIDs": null,
-                        "displayName": "profilePicSrc",
-                        "srcWidget": "profileImage",
-                        "type": "string",
-                        "uiConfig": {
-                            "Button": {
-                                "dataRetrieverId": "Imagelist",
-                                "dataUpdaterId": "Imagelist",
-                                "popupId": "Imagelist",
-                                "type": "ImageEditBtn"
-                            },
-                            "Label": {}
-                        },
-                        "uiRepresentation": "Label-Label-Button",
-                        "wType": "Image"
-                    },
-                    "srcWgtKUID": "eb24cc00ceb247fb8e02899f63ff3a31"
-                },
-                {
-                    "access": "Enable",
-                    "group": "General",
-                    "kuid": "f6955432e48147f0810cb6f355247db5",
-                    "originalPropertyKey": "src",
-                    "propertyIndex": 8,
-                    "propertyKey": "userCoverPhoto",
-                    "pw": {
-                        "access": "readwrite",
-                        "category": "widget",
-                        "dependentKeysKUIDs": null,
-                        "displayName": "userCoverPhoto",
-                        "srcWidget": "coverPhoto",
-                        "type": "string",
-                        "uiConfig": {
-                            "Button": {
-                                "dataRetrieverId": "Imagelist",
-                                "dataUpdaterId": "Imagelist",
-                                "popupId": "Imagelist",
-                                "type": "ImageEditBtn"
-                            },
-                            "Label": {}
-                        },
-                        "uiRepresentation": "Label-Label-Button",
-                        "wType": "Image"
-                    },
-                    "srcWgtKUID": "h22139ff8a1744769a9bb7b4b60c5e55"
                 }
             ]
         },

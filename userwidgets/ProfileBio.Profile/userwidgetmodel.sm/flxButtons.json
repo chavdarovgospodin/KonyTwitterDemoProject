@@ -26,7 +26,7 @@
     "_skin_": "s34128886e7148699c2c3fda56c71642",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "160dp"
     },
     "_width_": {
         "type": "string",
@@ -50,7 +50,7 @@
     "kuid": "c9696ddac422429d83de5d94d962a9b8",
     "layouttype": 3,
     "name": "kony.ui.FlexContainer",
-    "parent": "BioContainer",
+    "parent": "FlexImages",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

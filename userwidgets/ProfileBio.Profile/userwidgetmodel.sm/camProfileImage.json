@@ -1,8 +1,7 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "@class": "com.kony.gen.viz.model.component.KVizCamera",
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_base64_": null,
     "_height_": {
         "type": "string",
         "value": "100%"
@@ -23,8 +22,8 @@
         0,
         0
     ],
-    "_skin_": "sbb3d5df7c1b4d26bccbd7fae302937b",
-    "_src_": "imagedrag.png",
+    "_skin_": "s960fe3dc8ca408596abd2e257d7310c",
+    "_text_": "",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -32,6 +31,9 @@
     "_width_": {
         "type": "string",
         "value": "100%"
+    },
+    "androidwearos": {
+        "render": false
     },
     "canUpdateUI": true,
     "centerx": {
@@ -43,26 +45,46 @@
         "value": "45%"
     },
     "containerweight": 100,
-    "context": {
-        "channel": "mobile",
-        "formID": "uwu5ed2741ef294b71866b3819045f6610",
-        "platform": "android",
-        "templateType": "userwidgets",
-        "topLevelBox": null
+    "contentalignment": 5,
+    "desktopweb": {
+        "render": false
     },
-    "id": "profileImage",
-    "imagescalemode": 0,
+    "id": "camProfileImage",
+    "ide_onCapture": "AS_Camera_c7b712279c0d43eb9eeeaa4f6bf0567b",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "eb24cc00ceb247fb8e02899f63ff3a31",
-    "name": "kony.ui.Image2",
+    "kuid": "d4419f02c4864ad6b094a040ad80aa8d",
+    "name": "kony.ui.Camera",
+    "oncapture": null,
     "parent": "ProfilePhotoFlex",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "srcType": 1,
-    "wType": "Image",
-    "widgetalignment": 5,
+    "spaan": {
+        "render": false
+    },
+    "spaandroidtablet": {
+        "render": false
+    },
+    "spabb": {
+        "render": false
+    },
+    "spaip": {
+        "render": false
+    },
+    "spaipad": {
+        "render": false
+    },
+    "spawindowstablet": {
+        "render": false
+    },
+    "spawinphone8": {
+        "render": false
+    },
+    "wType": "Camera",
+    "watchos": {
+        "render": false
+    },
     "zindex": 1
 }
