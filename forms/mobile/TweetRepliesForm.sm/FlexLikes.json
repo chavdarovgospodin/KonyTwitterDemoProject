@@ -37,7 +37,7 @@
     "canUpdateUI": true,
     "children": [
         "FlexLine1",
-        "FlexContainer0ifbafc469c1f4a",
+        "FlexTweetnfo",
         "FlexLine",
         "FlexButtons",
         "FlexBottomLine"

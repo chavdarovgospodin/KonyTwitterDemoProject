@@ -53,7 +53,7 @@
     "kuid": "jce4d86eebb54f589354a36f68cc43ec",
     "layouttype": 3,
     "name": "kony.ui.FlexContainer",
-    "parent": "FlexContainer0a33db7e92f244e",
+    "parent": "FlexTweetInfoContainer",
     "pf": "TweetRepliesForm",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
