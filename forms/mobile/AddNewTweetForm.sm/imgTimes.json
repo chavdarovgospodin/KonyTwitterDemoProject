@@ -42,7 +42,7 @@
         "templateType": "forms",
         "topLevelBox": null
     },
-    "id": "CopyimgUser0cf01c9372d8842",
+    "id": "imgTimes",
     "imagescalemode": 1,
     "info": null,
     "invokedProperty": "src",
@@ -50,7 +50,7 @@
     "isvisible": true,
     "kuid": "da19c8ce0fcf4f93a63ce47084f05898",
     "name": "kony.ui.Image2",
-    "parent": "CopyflxImgUser0a6296232c37949",
+    "parent": "FleximgTimes",
     "pf": "AddNewTweetForm",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

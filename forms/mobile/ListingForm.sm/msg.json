@@ -25,10 +25,11 @@
         0
     ],
     "_percent_": true,
+    "_render_": true,
     "_skin_": "s34128886e7148699c2c3fda56c71642",
     "_top_": {
         "type": "number",
-        "value": "1"
+        "value": "0"
     },
     "_width_": {
         "type": "string",
@@ -43,12 +44,13 @@
     "id": "msg",
     "info": null,
     "iscustomlayout": false,
+    "issegmentchild": false,
     "isvisible": true,
     "kuid": "bc6ce7240f434b1a83f70c300e4f27e4",
     "layouttype": 4,
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
-    "parent": "FlexListing",
+    "parent": "FlexMain",
     "pf": "ListingForm",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

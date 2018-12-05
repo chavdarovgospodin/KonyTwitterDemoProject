@@ -28,10 +28,11 @@
     "autogrowmode": 1,
     "canUpdateUI": true,
     "children": [
-        "newTweet"
+        "TextAreaNewTweet"
     ],
     "clipbounds": true,
     "containerweight": 100,
+    "disabledSkins": {},
     "enablescrolling": true,
     "id": "FlexText",
     "info": null,
