@@ -6,5 +6,10 @@ define({
     AS_UWI_e4ffd94e86a14b1586031cb16b81eee2: function AS_UWI_e4ffd94e86a14b1586031cb16b81eee2(eventobject) {
         var self = this;
         return self.validate.call(this);
+    },
+    /** onHide defined for LoginForm **/
+    AS_Form_jc9a84edad4c43199c2c1df4f8d23096: function AS_Form_jc9a84edad4c43199c2c1df4f8d23096(eventobject) {
+        var self = this;
+        return self.clearInput.call(this);
     }
 });

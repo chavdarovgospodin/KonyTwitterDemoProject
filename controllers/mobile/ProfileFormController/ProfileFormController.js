@@ -21,7 +21,20 @@ define({
     return newTweet;
   },
 
-  
+   showTweets: function () {
+    let tweetsContainer = this.view.FlexScrollMain;
+
+    //fetch data
+    
+    //check if data is received properly
+
+    //if data received ->
+    //for cycle 
+    //call constructor function in for cycle
+    //       for(let item of items) {
+    //         tweetsContainer.add(this.defineTweetComponent(item)); // figure out what id should be
+    //       }
+  },
   
 
   //Executed every time we nagigate to the form.
@@ -52,24 +65,5 @@ define({
       this.showTweets();
     }
   },
-
-  
-  
-  
-  
-  showTweets: function () {
-    let tweetsContainer = this.view.FlexScrollMain;
-
-    //fetch data
-    
-    //check if data is received properly
-
-    //if data received ->
-    //for cycle 
-    //call constructor function in for cycle
-    //       for(let item of items) {
-    //         tweetsContainer.add(this.defineTweetComponent(item)); // figure out what id should be
-    //       }
-  }
 
 });

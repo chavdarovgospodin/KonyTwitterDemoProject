@@ -1,0 +1,28 @@
+{
+    "AS_Form_jc9a84edad4c43199c2c1df4f8d23096": {
+        "id": "AS_Form_jc9a84edad4c43199c2c1df4f8d23096",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "LoginForm",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j7e8739115b84811906c7c8ac585457d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___jd73eab8d0dc4c2e98aaeb6a10ebc661",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "clearInput",
+            "display": "clearInput",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}
