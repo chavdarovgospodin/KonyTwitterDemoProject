@@ -41,6 +41,7 @@
     "containerweight": 0,
     "data": {
         "ide_onClick": "AS_UWI_b1fbf4b76ed24379a2e6fdb5c97d7d89",
+        "isVisible1": true,
         "text": "Tweet"
     },
     "enablescrolling": true,
