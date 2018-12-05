@@ -2,30 +2,26 @@
     "AS_FlexContainer_f7e3f1c30b884c5cbaf931d12a5d6981": {
         "id": "AS_FlexContainer_f7e3f1c30b884c5cbaf931d12a5d6981",
         "type": "ACTION_SEQUENCE",
-        "params": [
-            {
-                "datatype": "collection",
-                "name": "eventobject"
-            }
-        ],
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
         "contextObj": {
-            "name": "uwu5077d6d10bb4d489d27851c4c1a0b96",
+            "name": "uwucde3a77ee844967a422d7c8168224f3",
             "type": "userwidgets",
             "KUID": "ucde3a77ee844967a422d7c8168224f3"
         },
         "language": "js",
-        "actions": [
-            {
-                "id": "INVOKE_FUNCTION___d8c62b1877cb4f7089e22b9959ecbaee",
-                "type": "INVOKE_FUNCTION",
-                "sequenceKUID": "navToPrevious",
-                "display": "navToPrevious",
-                "inputparams": [],
-                "parentId": null,
-                "callbackType": null,
-                "disabled": null,
-                "source": "controller"
-            }
-        ]
+        "actions": [{
+            "id": "INVOKE_FUNCTION___d8c62b1877cb4f7089e22b9959ecbaee",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "navToPrevious",
+            "display": "navToPrevious",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
     }
 }
