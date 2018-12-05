@@ -37,6 +37,7 @@
     "canUpdateUI": true,
     "children": [
         "coverPhoto",
+        "camCoverPhoto",
         "ProfilePhotoFlex"
     ],
     "clipbounds": false,

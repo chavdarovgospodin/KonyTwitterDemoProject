@@ -39,7 +39,9 @@
     "canUpdateUI": true,
     "clipbounds": true,
     "containerweight": 0,
-    "data": {},
+    "data": {
+        "isVisible1": true
+    },
     "enablescrolling": true,
     "id": "Profile",
     "info": null,

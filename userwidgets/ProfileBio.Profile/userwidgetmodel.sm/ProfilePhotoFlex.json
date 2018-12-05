@@ -36,7 +36,8 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "profileImage"
+        "profileImage",
+        "camProfileImage"
     ],
     "clipbounds": true,
     "containerweight": 100,
@@ -56,5 +57,5 @@
     "snaptogrid": true,
     "wType": "FlexContainer",
     "widgetalignment": 1,
-    "zindex": 2
+    "zindex": 3
 }

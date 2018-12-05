@@ -187,6 +187,23 @@
                         "wType": "Image"
                     },
                     "srcWgtKUID": "h22139ff8a1744769a9bb7b4b60c5e55"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f71cbb99f4b047d1a37f888798a867aa",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 9,
+                    "propertyKey": "isVisible1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Visible",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Camera"
+                    },
+                    "srcWgtKUID": "d4419f02c4864ad6b094a040ad80aa8d"
                 }
             ]
         },
