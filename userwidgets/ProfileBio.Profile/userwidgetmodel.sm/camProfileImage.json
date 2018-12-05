@@ -4,11 +4,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "120dp"
+        "value": "100%"
     },
     "_left_": {
-        "type": "number",
-        "value": "0"
+        "type": "string",
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -25,12 +25,12 @@
     "_skin_": "s960fe3dc8ca408596abd2e257d7310c",
     "_text_": "",
     "_top_": {
-        "type": "number",
-        "value": "0"
+        "type": "string",
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "120dp"
+        "value": "100%"
     },
     "androidwearos": {
         "render": false
@@ -38,7 +38,7 @@
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
-        "value": "48%"
+        "value": "45%"
     },
     "centery": {
         "type": "string",
@@ -50,7 +50,7 @@
         "render": false
     },
     "id": "camProfileImage",
-    "ide_onCapture": "AS_Camera_cfb5d56ecef047e4a27089b3c5b76691",
+    "ide_onCapture": "AS_Camera_c7b712279c0d43eb9eeeaa4f6bf0567b",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
@@ -86,5 +86,5 @@
     "watchos": {
         "render": false
     },
-    "zindex": 3
+    "zindex": 1
 }

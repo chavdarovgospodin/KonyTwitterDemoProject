@@ -42,7 +42,7 @@
         "render": false
     },
     "id": "camCoverPhoto",
-    "ide_onCapture": "AS_Camera_a5ced21c3e5648118acb3b0914364447",
+    "ide_onCapture": "AS_Camera_e189f09a907943e0bb9a22b955c6889b",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
@@ -78,5 +78,5 @@
     "watchos": {
         "render": false
     },
-    "zindex": 2
+    "zindex": 1
 }

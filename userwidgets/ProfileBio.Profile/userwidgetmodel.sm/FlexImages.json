@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "400dp"
+        "value": "220dp"
     },
     "_left_": {
         "type": "string",
@@ -36,26 +36,27 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "FlexImages",
-        "BioContainer",
-        "FlexLineSeparator"
+        "ImageContainer",
+        "ProfilePhotoFlex",
+        "flxButtons"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "ProfileContainer",
+    "id": "FlexImages",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "e7693ee0b25947b18c20feff7ef44001",
-    "layouttype": 4,
+    "kuid": "c6affbb7fae34ec7ba277ecbc99c1fb3",
+    "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "Profile",
+    "parent": "ProfileContainer",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
-    "widgetalignment": 1
+    "widgetalignment": 1,
+    "zindex": 1
 }
