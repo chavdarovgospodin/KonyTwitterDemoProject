@@ -33,10 +33,7 @@
         "type": "string",
         "value": "90%"
     },
-    "android": {
-        "ide_onBeginEditing": "AS_TextField_h8037b889198453bbfbec006467590bb",
-        "ide_onEndEditing": "AS_TextField_d4b806d6c04b49cca780b833d19f952a"
-    },
+    "android": {},
     "autocapitalize": "none",
     "autocomplete": false,
     "autocorrect": false,
@@ -44,7 +41,7 @@
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
-        "value": "50.00%"
+        "value": "51%"
     },
     "containerheight": "",
     "containerheightmode": 1,
@@ -55,10 +52,7 @@
     },
     "id": "txtUsername",
     "info": null,
-    "iphone": {
-        "ide_onBeginEditing": "AS_TextField_bfa40862f162450b9b6f7f2464e06752",
-        "ide_onEndEditing": "AS_TextField_c63c37ca1f0848b188d9b9764714e6ad"
-    },
+    "iphone": {},
     "iscustomlayout": false,
     "isvisible": true,
     "keyboardtype": "A",

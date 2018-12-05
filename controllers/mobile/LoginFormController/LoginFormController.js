@@ -9,27 +9,41 @@ define({
    
    if(!kony.string.isValidEmail(email)){
      validE = false;
-     this.view.flxBorderUsername.skin = 'flxBorderErrSkin';
+     this.view.flxBorderUsername.skin = 'sknFlxBorderErr';
      this.view.lblErrUsername.isVisible = true;
    }else{
      validE = true;
-     this.view.flxBorderUsername.skin = 'flxDefBorderSkin';
+     this.view.flxBorderUsername.skin = 'sknFlxDefBorder';
      this.view.lblErrUsername.isVisible = false;
    }
    
    if((password === null) || (password.length < 1)){
      validP = false;
-     this.view.flxBorderPassword.skin = 'flxBorderErrSkin';
+     this.view.flxBorderPassword.skin = 'sknFlxBorderErr';
      this.view.lblErrPassword.isVisible = true;
    }else{
      validP = true;
-     this.view.flxBorderPassword.skin = 'flxDefBorderSkin';
+     this.view.flxBorderPassword.skin = 'sknFlxDefBorder';
      this.view.lblErrPassword.isVisible = false;
    }
    
    if(validE && validP){
-     ntf.navigate();
+     
+     //save email and pass in a JS object
+     let userInput = {
+       userName: email,
+       userPassword: password
+     };
+     
+     //navigate to Listing Form and pass userName and pass
+     ntf.navigate(userInput);
    }
- }
+ },
+  
+  
+  clearInput: function () {
+    this.view.txtUsername.text = '';
+    this.view.txtPassword.text = '';
+  }
 
  });

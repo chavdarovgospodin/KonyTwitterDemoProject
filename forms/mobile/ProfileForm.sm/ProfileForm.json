@@ -30,7 +30,7 @@
     },
     "canUpdateUI": true,
     "children": [
-        "FlexMain"
+        "FlexScrollMain"
     ],
     "containerweight": 100,
     "controllerInfo": {

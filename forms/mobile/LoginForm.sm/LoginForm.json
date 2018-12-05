@@ -47,6 +47,7 @@
     "displayorientation": 1,
     "enabledforidletimeout": false,
     "id": "LoginForm",
+    "ide_onHide": "AS_Form_jc9a84edad4c43199c2c1df4f8d23096",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,

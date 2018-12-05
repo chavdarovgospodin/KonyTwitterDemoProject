@@ -23,7 +23,7 @@
             "itemId": "LoginForm",
             "widgetId": "flxBorderPassword",
             "propertyName": "skin",
-            "propertyValue": "flxDefBorderSkin",
+            "propertyValue": "sknFlxDefBorder",
             "itemKUID": "j7e8739115b84811906c7c8ac585457d",
             "widgetKUID": "fe0ff936491c444b8d5a62b61abbc9da",
             "skinKUID": "s6d7b38fd8de4b0d9cbf6854821852a9",

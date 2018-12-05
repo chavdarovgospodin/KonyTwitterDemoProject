@@ -23,7 +23,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s58c781e595444e3ab7b57966062f94b",
+    "_skin_": "s6d7b38fd8de4b0d9cbf6854821852a9",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -42,9 +42,7 @@
     "children": [],
     "clipbounds": true,
     "containerweight": 100,
-    "disabledSkins": {
-        "focusSkin": "sae310d2928f4c5eb95da3606322e859"
-    },
+    "disabledSkins": {},
     "enablescrolling": true,
     "id": "FlexBorderUser",
     "info": null,

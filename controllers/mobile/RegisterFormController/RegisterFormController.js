@@ -2,37 +2,29 @@ define({
 
   valiteForms: function () {
 
-    var regex = (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/);
-    if (this.validateInputFields(this.view.textBoxUsername) && this.validateInputFields(this.view.textBoxPassword)) {
-      if(this.view.textBoxUsername.text.match(regex)) {
-
-        alert('user saved!');
-        //var ntf = new kony.mvc.Navigation("listingForm");
-        //ntf.navigate();
-        //save this user to the database
-      }
-      else {
-        alert('Invalid email');
-      }
+    if (this.validateInputFields(this.view.textBoxUsername) && this.validateInputFields(this.view.textBoxPassword) && this.validateRegex(this.view.textBoxUsername)) {    
+      alert('user saved!');
+      var ntf = new kony.mvc.Navigation("ListingForm");
+      ntf.navigate();
+      //save this user to the database
     }
 
-
-    if(this.validateInputFields(this.view.textBoxUsername)) {
+    if(this.validateInputFields(this.view.textBoxUsername) && this.validateRegex(this.view.textBoxUsername)) {
       this.view.lblInvalidUsername.isVisible = false;
-      this.view.FlexBorderUser.skin = 'skinFooterBorderDef';
+      this.view.FlexBorderUser.skin = 'sknFlxDefBorder';
     }
     else {
       this.view.lblInvalidUsername.isVisible = true;
-      this.view.FlexBorderUser.skin = 'skinFlexBorderRed';
+      this.view.FlexBorderUser.skin = 'sknFlxBorderErr';
     }
 
     if(this.validateInputFields(this.view.textBoxPassword)) {
       this.view.lblInvalidPass.isVisible = false;
-      this.view.FlexBorderPass.skin = 'skinFooterBorderDef';
+      this.view.FlexBorderPass.skin = 'sknFlxDefBorder';
     }
     else {
       this.view.lblInvalidPass.isVisible = true;
-      this.view.FlexBorderPass.skin = 'skinFlexBorderRed';
+      this.view.FlexBorderPass.skin = 'sknFlxBorderErr';
     }
 
   },
@@ -40,6 +32,20 @@ define({
 
   validateInputFields: function(input) {
     return input.text !== null && input.text !=='';
+  },
+
+  validateRegex: function (input) {
+    var regex = (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/);
+    return input.text.match(regex);
+  },
+
+  defaultInputProp: function() {
+    this.view.textBoxUsername.text = '';
+    this.view.textBoxPassword.text = '';
+    this.view.lblInvalidUsername.isVisible = false;
+    this.view.FlexBorderUser.skin = 'sknFlxDefBorder';
+    this.view.lblInvalidPass.isVisible = false;
+    this.view.FlexBorderPass.skin = 'sknFlxDefBorder';
   }
 
 });
