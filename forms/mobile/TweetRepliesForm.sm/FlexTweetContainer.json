@@ -48,7 +48,7 @@
     "kuid": "i884375309bc42d08f2155a486b46675",
     "layouttype": 4,
     "name": "kony.ui.FlexContainer",
-    "parent": "FlexScrollContainer0f5d5bd648d9f47",
+    "parent": "FlexScroll",
     "pf": "TweetRepliesForm",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

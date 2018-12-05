@@ -40,8 +40,8 @@
     "autogrowmode": 1,
     "canUpdateUI": true,
     "children": [
-        "Label0c7b6ce3c15514f",
-        "Label0da393381c92341"
+        "lblNumberOfRetweets",
+        "lblRetweets"
     ],
     "clipbounds": true,
     "containerweight": 100,

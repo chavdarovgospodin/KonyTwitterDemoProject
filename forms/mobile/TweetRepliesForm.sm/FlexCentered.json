@@ -41,7 +41,7 @@
     },
     "children": [
         "FlexRetweets",
-        "CopyFlexRetweets0h738e4486a164b"
+        "FlexLike"
     ],
     "clipbounds": true,
     "containerweight": 100,

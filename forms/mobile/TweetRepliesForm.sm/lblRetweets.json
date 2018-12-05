@@ -23,7 +23,7 @@
         0
     ],
     "_skin_": "s2862b4ffe104a208a39aa63c04e0340",
-    "_text_": "Likes",
+    "_text_": "Retweets",
     "_top_": {
         "type": "string",
         "value": "0"
@@ -42,7 +42,7 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "CopyLabel0b7d515bc983947",
+    "id": "lblRetweets",
     "info": null,
     "ipad": {
         "psp": {
@@ -56,9 +56,9 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ee202841eb494cdf9907742ffe9e8667",
+    "kuid": "acd12317a3af4f52993a71902620c0fa",
     "name": "kony.ui.Label",
-    "parent": "CopyFlexRetweets0h738e4486a164b",
+    "parent": "FlexRetweets",
     "pf": "TweetRepliesForm",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

@@ -27,7 +27,7 @@
         "value": "5dp"
     },
     "_skin_": "s1c8159641844525a74bc704c7641fb9",
-    "_text_": "473",
+    "_text_": "283",
     "_top_": {
         "type": "string",
         "value": "0"
@@ -46,7 +46,7 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "Label0c7b6ce3c15514f",
+    "id": "lblNumberOfLikes",
     "info": null,
     "ipad": {
         "psp": {
@@ -60,9 +60,9 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "f95b1cb73da04c99bfe2487d7128bcdb",
+    "kuid": "i3c04d594c414c649331000c6695fb08",
     "name": "kony.ui.Label",
-    "parent": "FlexRetweets",
+    "parent": "FlexLike",
     "pf": "TweetRepliesForm",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

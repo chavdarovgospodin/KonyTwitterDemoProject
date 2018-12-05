@@ -26,7 +26,7 @@
     "_skin_": "s34128886e7148699c2c3fda56c71642",
     "_top_": {
         "type": "string",
-        "value": "4dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
@@ -52,7 +52,7 @@
     "kuid": "e9fdb187e54344409b86df11b4a45390",
     "layouttype": 4,
     "name": "kony.ui.FlexContainer",
-    "parent": "FlexScrollContainer0f5d5bd648d9f47",
+    "parent": "FlexScroll",
     "pf": "TweetRepliesForm",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

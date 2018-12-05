@@ -20,7 +20,7 @@
         0,
         0,
         0,
-        0
+        1
     ],
     "_skin_": "se43707826254b478c569c17f5ffec53",
     "_text_": "03:54 AM - 13 Sep 17",
@@ -58,6 +58,7 @@
     "isvisible": true,
     "kuid": "h1e7452b15df434f827caa29cd198a8d",
     "name": "kony.ui.Label",
+    "paddinginpixel": false,
     "parent": "FlexDateTIme",
     "pf": "TweetRepliesForm",
     "retaincontentalignment": false,
