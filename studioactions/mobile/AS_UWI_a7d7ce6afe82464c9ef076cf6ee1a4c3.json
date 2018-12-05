@@ -16,8 +16,8 @@
         "actions": [{
             "id": "NAVIGATE_TO_FORM___e8f9bcf7e2924abc955d98644889f29e",
             "type": "NAVIGATE_TO_FORM",
-            "formId": "ListingForm",
-            "formKUID": "f55e6944c1f845d7aefcc27134a44dff",
+            "formId": "AddNewTweetForm",
+            "formKUID": "ed777833602d432fb0fbbb4b1b2b4013",
             "mappings": {},
             "mappingsOrder": [],
             "parentId": "",
