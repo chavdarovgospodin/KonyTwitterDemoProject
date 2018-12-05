@@ -17,7 +17,7 @@
             "itemId": "LoginForm",
             "widgetId": "flxBorderUsername",
             "propertyName": "skin",
-            "propertyValue": "sknFlxBorderFocus",
+            "propertyValue": "flxBorderFocusSkin",
             "itemKUID": "j7e8739115b84811906c7c8ac585457d",
             "widgetKUID": "fed91e7b75444572a63ae67f0c38152f",
             "skinKUID": "sfe817e469d246328f2e413b4d1fe67b",

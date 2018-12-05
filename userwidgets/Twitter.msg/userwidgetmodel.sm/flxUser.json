@@ -43,7 +43,6 @@
     "containerweight": 100,
     "enablescrolling": true,
     "id": "flxUser",
-    "ide_onClick": "AS_FlexContainer_f995d11df96c46f8a272f2e3ae88b87e",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,

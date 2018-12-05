@@ -18,14 +18,11 @@ define(function() {
           				userName: this.view.lblUserName,
           				userHandle: this.view.lblUserHandle,
           				msg: this.view.RichTextMsg.text,
-          				img: this.view.imgUser.base64,
-          				numOfReplies: this.view.lblCommentNumber.text,
-          				numOfRetweets: this.view.lblRetweetNumber.text,
-          				numbOfHearts: this.view.lblHeartNumber.text
+          				img: this.view.imgUser.base64
         				};
         
         
-        let profileForm = new kony.mvc.Navigation('ProfileForm');
+        let profileForm = kony.mvc.Navigation(''); // add form name
         profileForm.navigate(params);
       }
       

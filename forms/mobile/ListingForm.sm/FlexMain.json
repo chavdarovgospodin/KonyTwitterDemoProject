@@ -2,8 +2,8 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "string",
-        "value": "100%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_left_": {
         "type": "string",
@@ -39,7 +39,7 @@
     "canUpdateUI": true,
     "children": [
         "FlexHeader",
-        "msg"
+        "FlexListing"
     ],
     "clipbounds": true,
     "containerweight": 100,
@@ -52,7 +52,7 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "ab2533c78abb4568bd1ec6a0a835e7fc",
-    "layouttype": 4,
+    "layouttype": 2,
     "name": "kony.ui.FlexScrollContainer",
     "pagingenabled": false,
     "parent": "ListingForm",

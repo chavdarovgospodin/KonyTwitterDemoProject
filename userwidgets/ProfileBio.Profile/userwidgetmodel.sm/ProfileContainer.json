@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "400dp"
+        "value": "380dp"
     },
     "_left_": {
         "type": "string",
@@ -37,8 +37,7 @@
     "canUpdateUI": true,
     "children": [
         "ImageContainer",
-        "BioContainer",
-        "FlexLineSeparator"
+        "BioContainer"
     ],
     "clipbounds": true,
     "containerweight": 100,

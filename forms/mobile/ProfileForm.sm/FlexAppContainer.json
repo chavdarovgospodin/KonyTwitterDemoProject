@@ -1,0 +1,54 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "number",
+        "value": "400"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sfb30cbbad014ee399290415d95d1ceb",
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "Profile"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "defaultunit": 3,
+    "enablescrolling": true,
+    "id": "FlexAppContainer",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "d9fccfcb18b54c7e8c6b174058ecd111",
+    "layouttype": 4,
+    "masterType": 1,
+    "name": "kony.ui.FlexContainer",
+    "parent": "FlexMain",
+    "pf": "ProfileForm",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

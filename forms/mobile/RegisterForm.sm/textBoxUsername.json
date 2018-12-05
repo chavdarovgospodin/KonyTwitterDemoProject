@@ -25,7 +25,10 @@
         "type": "string",
         "value": "90%"
     },
-    "android": {},
+    "android": {
+        "ide_onBeginEditing": "AS_TextField_f4b6fdd93aac4639aa420be558fca5dd",
+        "ide_onEndEditing": "AS_TextField_b046f29d861342ffbdf7dfa7b328f57f"
+    },
     "autocapitalize": "none",
     "autocomplete": false,
     "autocorrect": false,
@@ -42,7 +45,10 @@
     "focusskin": "s32c96166d294522928e01d5fea84d56",
     "id": "textBoxUsername",
     "info": null,
-    "iphone": {},
+    "iphone": {
+        "ide_onBeginEditing": "AS_TextField_b538e90ba50f4586a2a06c539bb462d3",
+        "ide_onEndEditing": "AS_TextField_c357ce2801b9418b8ae96d9ebfc776df"
+    },
     "iscustomlayout": false,
     "isvisible": true,
     "keyboardtype": "A",

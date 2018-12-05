@@ -40,25 +40,13 @@
     "clipbounds": true,
     "containerweight": 0,
     "data": {
-        "height1": {
-            "Default": {
-                "type": "string",
-                "value": "35dp"
-            }
-        },
         "ide_onClick": "AS_UWI_e4ffd94e86a14b1586031cb16b81eee2",
         "isVisible1": true,
         "isVisible2": false,
         "isVisible3": false,
         "isVisible4": false,
         "isVisible5": false,
-        "text": "Log in",
-        "width1": {
-            "Default": {
-                "type": "string",
-                "value": "20%"
-            }
-        }
+        "text": "Log in"
     },
     "enablescrolling": true,
     "id": "FooterComp",
