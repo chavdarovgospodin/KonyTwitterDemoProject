@@ -42,8 +42,8 @@ define({
   
   
   clearInput: function () {
-    this.view.lblUsername.text = '';
-    this.view.lblPassword.text = '';
+    this.view.txtUsername.text = '';
+    this.view.txtPassword.text = '';
   }
 
  });
