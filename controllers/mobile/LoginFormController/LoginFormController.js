@@ -28,8 +28,22 @@ define({
    }
    
    if(validE && validP){
-     ntf.navigate();
+     
+     //save email and pass in a JS object
+     let userInput = {
+       userName: email,
+       userPassword: password
+     };
+     
+     //navigate to Listing Form and pass userName and pass
+     ntf.navigate(userInput);
    }
- }
+ },
+  
+  
+  clearInput: function () {
+    this.view.txtUsername.text = '';
+    this.view.txtPassword.text = '';
+  }
 
  });
