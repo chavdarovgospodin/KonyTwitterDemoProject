@@ -29,14 +29,26 @@ define({
    
    if(validE && validP){
      
-     //save email and pass in a JS object
-     let userInput = {
-       userName: email,
-       userPassword: password
-     };
+     //check if email / username exists in database
+     //check if password is valid for that user
+     //maybe get some user data back
+
+     
+     //if valid -> 
+     //save email/username to LocalStorage
+     //if(valid){
+     //  let userInfo = {
+     //     userName: email
+     //  };
+
+     //  try{
+     //    kony.store.setItem('userInfo', userInfo);
+     //    }
+     //  }
+     //catch() { alert('Can't save user information on the device.);}
      
      //navigate to Listing Form and pass userName and pass
-     ntf.navigate(userInput);
+     ntf.navigate();
    }
  },
   
