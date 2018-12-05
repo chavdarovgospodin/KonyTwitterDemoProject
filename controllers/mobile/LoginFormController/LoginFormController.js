@@ -9,7 +9,7 @@ define({
    
    if(!kony.string.isValidEmail(email)){
      validE = false;
-     this.view.flxBorderUsername.skin = 'flxBorderErrSkin';
+     this.view.flxBorderUsername.skin = 'sknFlxBorderErr';
      this.view.lblErrUsername.isVisible = true;
    }else{
      validE = true;
@@ -19,7 +19,7 @@ define({
    
    if((password === null) || (password.length < 1)){
      validP = false;
-     this.view.flxBorderPassword.skin = 'flxBorderErrSkin';
+     this.view.flxBorderPassword.skin = 'sknFlxBorderErr';
      this.view.lblErrPassword.isVisible = true;
    }else{
      validP = true;
