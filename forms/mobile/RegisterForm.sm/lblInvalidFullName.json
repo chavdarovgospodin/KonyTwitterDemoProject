@@ -23,7 +23,7 @@
         0
     ],
     "_skin_": "s09f7efb2e2b4a7da82a03953fc8efc1",
-    "_text_": "Invalid username",
+    "_text_": "Invalid name",
     "_top_": {
         "type": "number",
         "value": "1"
@@ -42,7 +42,7 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblInvalidUsername",
+    "id": "lblInvalidFullName",
     "info": null,
     "ipad": {
         "psp": {
@@ -56,9 +56,9 @@
     },
     "iscustomlayout": false,
     "isvisible": false,
-    "kuid": "ad0b6f7a8d7243278c696af4095f964d",
+    "kuid": "d3a61d6bd3314939b8f02fafa0471aeb",
     "name": "kony.ui.Label",
-    "parent": "FlexUsername",
+    "parent": "FlexFullName",
     "pf": "RegisterForm",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

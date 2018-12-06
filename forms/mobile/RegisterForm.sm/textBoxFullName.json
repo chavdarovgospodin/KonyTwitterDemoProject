@@ -18,9 +18,13 @@
         0,
         0
     ],
-    "_placeholder_": "Username",
+    "_placeholder_": "Full name",
     "_skin_": "s32c96166d294522928e01d5fea84d56",
     "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
     "_width_": {
         "type": "string",
         "value": "90%"
@@ -40,16 +44,16 @@
     "containerweight": 100,
     "contentalignment": 4,
     "focusskin": "s32c96166d294522928e01d5fea84d56",
-    "id": "textBoxUsername",
+    "id": "textBoxFullName",
     "info": null,
     "iphone": {},
     "iscustomlayout": false,
     "isvisible": true,
     "keyboardtype": "A",
-    "kuid": "ja5be84888b94e11aa855d5d039d033e",
+    "kuid": "cd543db4d9584a9a91193179c45e8c1f",
     "mode": "A",
     "name": "kony.ui.TextBox2",
-    "parent": "FlexUsername",
+    "parent": "FlexFullName",
     "pf": "RegisterForm",
     "placeholderskin": "s3db54bbf80d4400b8eea7362c03b391",
     "retaincontentalignment": false,
