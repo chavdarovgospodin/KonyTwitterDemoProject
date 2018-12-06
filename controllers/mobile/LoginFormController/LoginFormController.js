@@ -1,11 +1,11 @@
 define({ 
-
+  
  //Type your controller code here 
  validate: function() {
    var email = this.view.txtUsername.text;
    var password = this.view.txtPassword.text;
    var validE, validP = false;
-   var ntf = new kony.mvc.Navigation('ListingForm');
+   var ntf = new kony.mvc.Navigation('ListingForm'); // delete this later so it only navigates on successful user and pass match 
    
    if(!kony.string.isValidEmail(email)){
      validE = false;
@@ -31,11 +31,23 @@ define({
      
      //check if email / username exists in database
      //check if password is valid for that user
-     //maybe get some user data back
+     var userDto = new UserDto();
+     userDto.signIn( email, password, this.successLogin, this.failLogin);
      
-     //if valid -> 
-     //save email/username to LocalStorage
-     //if(valid){
+     
+     ntf.navigate(); // delete this later so it only navigates on successful user and pass match
+   }
+ },
+  
+  
+  clearInput: function () {
+    this.view.txtUsername.text = '';
+    this.view.txtPassword.text = '';
+  },
+  
+  
+  successLogin: function (result) {
+	 //save email/username to LocalStorage
      //  let userInfo = {
      //     userName: email
      //  };
@@ -45,16 +57,14 @@ define({
      //    }
      //  }
      //catch() { alert('Can't save user information on the device.);}
-     
-     //navigate to Listing Form and pass userName and pass
-     ntf.navigate();
-   }
- },
+     //
+    var ntf = new kony.mvc.Navigation('ListingForm');
+    ntf.navigate();
+  },
   
   
-  clearInput: function () {
-    this.view.txtUsername.text = '';
-    this.view.txtPassword.text = '';
+  failLogin: function (result) {
+    alert(result);
   }
 
  });
