@@ -5,19 +5,15 @@ define({
     if (this.validateInputFields(this.view.textBoxUsername) && this.validateInputFields(this.view.textBoxFullName) && this.validateInputFields(this.view.textBoxPassword) && this.validateInputFields(this.view.textBoxEmail) && this.validateRegex(this.view.textBoxEmail)) {    
 
       //save this user to the database
+      var userData = {
+          username: this.view.textBoxUsername.text,
+          password: this.view.textBoxPassword.text,
+          email: this.view.textBoxEmail.text,
+          fullName: this.view.textBoxFullName.text
+        };
+      
       var newUser = new UserDto();
-      newUser.signUp(
-        { 	username: this.view.textBoxUsername.text,
-         password: this.view.textBoxPassword.text,
-         email: this.view.textBoxEmail.text,
-         fullName: this.view.textBoxFullName.text
-        },
-        function(result){
-          var ntf = new kony.mvc.Navigation("ListingForm");
-          ntf.navigate();
-          alert('Successfully created your account!');},
-        function(result) {alert(result);
-        });
+      newUser.signUp(userData, this.successCreatedAcc, function(result) {alert(result);});
     }
     
 	//Username     
@@ -85,6 +81,14 @@ define({
     this.view.FlexBorderFullName.skin = 'sknFlxDefBorder';
     this.view.lblInvalidPass.isVisible = false;
     this.view.FlexBorderPass.skin = 'sknFlxDefBorder';
-  }
+  },
 
+
+  successCreatedAcc: function (result) {
+    alert('Successfully created your account!');
+    this.defaultInputProp();
+    
+    var ntf = new kony.mvc.Navigation("ListingForm");
+    ntf.navigate();
+  }
 });
