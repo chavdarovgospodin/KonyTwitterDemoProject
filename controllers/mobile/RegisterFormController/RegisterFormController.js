@@ -2,23 +2,45 @@ define({
 
   valiteForms: function () {
 
-    if (this.validateInputFields(this.view.textBoxUsername) && this.validateInputFields(this.view.textBoxPassword) && this.validateRegex(this.view.textBoxUsername)) {    
+    if (this.validateInputFields(this.view.textBoxUsername) && this.validateInputFields(this.view.textBoxFullName) && this.validateInputFields(this.view.textBoxPassword) && this.validateInputFields(this.view.textBoxEmail) && this.validateRegex(this.view.textBoxEmail)) {    
       alert('user saved!');
       var ntf = new kony.mvc.Navigation("ListingForm");
       ntf.navigate();
       //save this user to the database
     }
-
-    if(this.validateInputFields(this.view.textBoxUsername) && this.validateRegex(this.view.textBoxUsername)) {
+    
+	//Username     
+    if (this.validateInputFields(this.view.textBoxUsername)) {
       this.view.lblInvalidUsername.isVisible = false;
-      this.view.FlexBorderUser.skin = 'sknFlxDefBorder';
+      this.view.FlexBorderPass.skin = 'sknFlxDefBorder';
     }
     else {
       this.view.lblInvalidUsername.isVisible = true;
-      this.view.FlexBorderUser.skin = 'sknFlxBorderErr';
+      this.view.FlexBorderPass.skin = 'sknFlxBorderErr';
+    }
+	
+    //Email     
+    if (this.validateInputFields(this.view.textBoxEmail) && this.validateRegex(this.view.textBoxEmail)) {
+      this.view.lblInvalidEmail.isVisible = false;
+      this.view.FlexBorderUser.skin = 'sknFlxDefBorder';
+    }
+    else {
+      this.view.lblInvalidEmail.isVisible = true;
+      this.view.FlexBorderEmail.skin = 'sknFlxBorderErr';
+    }
+    
+	//Full name     
+    if(this.validateInputFields(this.view.textBoxFullName)) {
+      this.view.lblInvalidFullName.isVisible = false;
+      this.view.FlexBorderFullName.skin = 'sknFlxDefBorder';
+    }
+    else {
+      this.view.lblInvalidFullName.isVisible = true;
+      this.view.FlexBorderPass.skin = 'sknFlxBorderErr';
     }
 
-    if(this.validateInputFields(this.view.textBoxPassword)) {
+	//Password     
+    if (this.validateInputFields(this.view.textBoxPassword)) {
       this.view.lblInvalidPass.isVisible = false;
       this.view.FlexBorderPass.skin = 'sknFlxDefBorder';
     }
@@ -41,9 +63,15 @@ define({
 
   defaultInputProp: function() {
     this.view.textBoxUsername.text = '';
+    this.view.textBoxEmail.text = '';
+    this.view.textBoxFullName.text = '';
     this.view.textBoxPassword.text = '';
     this.view.lblInvalidUsername.isVisible = false;
     this.view.FlexBorderUser.skin = 'sknFlxDefBorder';
+    this.view.lblInvalidEmail.isVisible = false;
+    this.view.FlexBorderEmail.skin = 'sknFlxDefBorder';
+    this.view.lblInvalidFullName.isVisible = false;
+    this.view.FlexBorderFullName.skin = 'sknFlxDefBorder';
     this.view.lblInvalidPass.isVisible = false;
     this.view.FlexBorderPass.skin = 'sknFlxDefBorder';
   }
