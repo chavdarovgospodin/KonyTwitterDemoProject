@@ -32,7 +32,6 @@ define({
      //check if email / username exists in database
      //check if password is valid for that user
      //maybe get some user data back
-
      
      //if valid -> 
      //save email/username to LocalStorage

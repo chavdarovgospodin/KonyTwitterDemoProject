@@ -1,6 +1,6 @@
 class UserDto extends DataObject {
   constructor(data = {}) {
-    super('User');
+    super('Users');
     
     super.defineProperty('username');
     super.defineProperty('password');
