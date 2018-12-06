@@ -32,14 +32,6 @@ define({
      //check if email / username exists in database
      //check if password is valid for that user
      //maybe get some user data back
-
-     
-     var userData = new UserDto();
-     userData.signUp(
-       { username: 'Kris', password: 'wouldntYouLikeToKnow', email: 'kpelt@softserveinc.com', fullName: 'Kristiyan Pelteshki'}, //data
-       function(result){ alert(result);},
-       function(result) {alert(result);
-       });
      
      //if valid -> 
      //save email/username to LocalStorage

@@ -3,10 +3,21 @@ define({
   valiteForms: function () {
 
     if (this.validateInputFields(this.view.textBoxUsername) && this.validateInputFields(this.view.textBoxFullName) && this.validateInputFields(this.view.textBoxPassword) && this.validateInputFields(this.view.textBoxEmail) && this.validateRegex(this.view.textBoxEmail)) {    
-      alert('user saved!');
+
+      //save this user to the database
+      var newUser = new UserDto();
+      newUser.signUp(
+        { 	username: this.view.textBoxUsername.text,
+         	password: this.view.textBoxPassword.text,
+         	email: this.view.textBoxEmail.text,
+         	fullName: this.view.textBoxFullName.text
+        },
+        function(result){alert('Successfully created your account!');},
+        function(result) {alert(result);
+       	});
+      
       var ntf = new kony.mvc.Navigation("ListingForm");
       ntf.navigate();
-      //save this user to the database
     }
     
 	//Username     
