@@ -29,7 +29,7 @@
                         "access": "readwrite",
                         "category": "widget",
                         "dependentKeysKUIDs": null,
-                        "displayName": "imageUser",
+                        "displayName": "imgUser",
                         "srcWidget": "imgUser",
                         "type": "string",
                         "uiConfig": {
@@ -90,18 +90,75 @@
                     "kuid": "b8022a013ce74b4c894404d67bdc62a8",
                     "originalPropertyKey": "text",
                     "propertyIndex": 4,
-                    "propertyKey": "userEmail",
+                    "propertyKey": "userHandle",
                     "pw": {
                         "access": "readwrite",
                         "category": "look",
                         "dependentKeysKUIDs": null,
-                        "displayName": "userEmail",
+                        "displayName": "userHandle",
                         "srcWidget": "lblUserHandle",
                         "type": "string",
                         "uiRepresentation": "Label-Textbox",
                         "wType": "Label"
                     },
                     "srcWgtKUID": "iea67427d4fb441a81b5804f86aef16b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "i7ea186f9afd47daaa4976ce22eec806",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 5,
+                    "propertyKey": "commentNumber",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "commentNumber",
+                        "srcWidget": "lblCommentNumber",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "c34298794e6541048049ff0832f09f06"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "hdf69571403d45929f73ecaeb1e1e0d2",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 6,
+                    "propertyKey": "retweetNumber",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "retweetNumber",
+                        "srcWidget": "lblRetweetNumber",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "e4cc960785bf43ffb1c7b4f53ccf7a3a"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "h9c488deaf554f1fa8148242096c63de",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 7,
+                    "propertyKey": "heartNumber",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "heartNumber",
+                        "srcWidget": "lblHeartNumber",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "b92bdeb0758a42ec87035f3b85291f3b"
                 }
             ]
         },
