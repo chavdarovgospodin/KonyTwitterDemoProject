@@ -48,6 +48,7 @@
     "displayorientation": 1,
     "enabledforidletimeout": false,
     "id": "AddNewTweetForm",
+    "ide_preShow": "AS_Form_fb2ce7295ac846a98ebf435c8e73769a",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,

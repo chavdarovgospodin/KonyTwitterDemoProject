@@ -1,4 +1,8 @@
 define({ 
+  
+  clearData: function() {
+    this.view.TextAreaNewTweet.text = '';
+  },
 
   createNewTweet: function() {
     
