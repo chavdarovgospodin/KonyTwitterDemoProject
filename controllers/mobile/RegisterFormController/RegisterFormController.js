@@ -77,14 +77,14 @@ define({
     this.view.textBoxEmail.text = '';
     this.view.textBoxFullName.text = '';
     this.view.textBoxPassword.text = '';
-    this.view.lblInvalidUsername.isVisible = false;
-    this.view.FlexBorderUser.skin = 'sknFlxDefBorder';
-    this.view.lblInvalidEmail.isVisible = false;
     this.view.FlexBorderEmail.skin = 'sknFlxDefBorder';
-    this.view.lblInvalidFullName.isVisible = false;
     this.view.FlexBorderFullName.skin = 'sknFlxDefBorder';
-    this.view.lblInvalidPass.isVisible = false;
     this.view.FlexBorderPass.skin = 'sknFlxDefBorder';
+    this.view.FlexBorderUser.skin = 'sknFlxDefBorder';
+    this.view.lblInvalidFullName.isVisible = false;
+    this.view.lblInvalidUsername.isVisible = false;
+    this.view.lblInvalidEmail.isVisible = false;
+    this.view.lblInvalidPass.isVisible = false;
   },
 
 
