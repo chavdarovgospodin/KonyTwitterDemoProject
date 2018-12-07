@@ -17,5 +17,10 @@ define({
         var self = this;
         var ntf = new kony.mvc.Navigation("ListingForm");
         ntf.navigate();
+    },
+    /** preShow defined for AddNewTweetForm **/
+    AS_Form_fb2ce7295ac846a98ebf435c8e73769a: function AS_Form_fb2ce7295ac846a98ebf435c8e73769a(eventobject) {
+        var self = this;
+        return self.clearData.call(this);
     }
 });
