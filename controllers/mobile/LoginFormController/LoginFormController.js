@@ -31,8 +31,8 @@ define({
      
      //check if email / username exists in database
      //check if password is valid for that user
-     var userDto = new UserDto();
-     userDto.signIn( email, password, this.successLogin, this.failLogin); //email or username
+     //var userDto = new UserDto();
+     //userDto.signIn( email, password, this.successLogin, this.failLogin); //email or username
      
      
      ntf.navigate(); // delete this later so it only navigates on successful user and pass match
