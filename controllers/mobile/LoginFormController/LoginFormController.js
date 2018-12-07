@@ -43,6 +43,10 @@ define({
   clearInput: function () {
     this.view.txtUsername.text = '';
     this.view.txtPassword.text = '';
+    this.view.flxBorderPassword.skin = 'sknFlxDefBorder';
+    this.view.flxBorderUsername.skin = 'sknFlxDefBorder';
+    this.view.lblErrPassword.isVisible = false;
+    this.view.lblErrUsername.isVisible = false;
   },
   
   

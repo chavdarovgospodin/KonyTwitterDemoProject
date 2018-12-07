@@ -16,8 +16,8 @@
         "actions": [{
             "id": "INVOKE_FUNCTION___bfd26d44671d4f1ea3e4fe96ee4ad859",
             "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "defaultInputProp",
-            "display": "defaultInputProp",
+            "sequenceKUID": "clearInput",
+            "display": "clearInput",
             "inputparams": [],
             "parentId": null,
             "callbackType": null,
