@@ -25,11 +25,11 @@ class UserDto extends DataObject {
 //      username: username
 //    };
     
-    this.state = Object.assign(data, {
+    this.state = Object.assign(this.state, {
       email: username
     });
     
-    this.fetch('username', function(result) {
+    this.fetch('email', function(result) {
       if (result && result.records) {
       if (this.hashPassword(password) == result.records[0].password)
       	successCallback(this.state);
