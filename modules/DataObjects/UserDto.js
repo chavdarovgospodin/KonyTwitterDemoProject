@@ -21,9 +21,13 @@ class UserDto extends DataObject {
     password: string
   */
   signIn(username, password, successCallback, failCallback) {
-    this.state = {
-      username: username
-    };
+//    this.state = {
+//      username: username
+//    };
+    
+    this.state = Object.assign(data, {
+      email: username
+    });
     
     this.fetch('username', function(result) {
       if (result && result.records) {

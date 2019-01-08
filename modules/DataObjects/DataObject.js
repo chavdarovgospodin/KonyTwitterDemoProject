@@ -174,12 +174,4 @@ class DataObject {
       failCallback();
     });
   }
-}Service.deleteRecord({
-      "dataObject": dataObject
-    }, function(result) {
-      successCallback(result);
-    }, function(res) {
-      failCallback();
-    });
-  }
 }
