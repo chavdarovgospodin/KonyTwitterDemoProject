@@ -40,7 +40,7 @@ class DataObject {
     return dataObject;
   }
   
-  getServiceName() { return 'TwitterDB2New'; }
+  getServiceName() { return 'TestDB'; }
   
   fetch(key, successCallback, errorCallback) {
     const keyValue = this.getKey() || key;
@@ -49,7 +49,7 @@ class DataObject {
     }
     
     const dataObject = new kony.sdk.dto.DataObject(this.objectName);
-    dataObject.odataUrl = `$filter=${this.objectKey} eq ${keyValue}`;
+    dataObject.odataUrl = `$filter=${keyValue} eq ${this.state[keyValue]}`;
     
     const service = kony.sdk.getCurrentInstance().getObjectService(this.getServiceName(), { access: 'online' });
     service.fetch({dataObject}, function (response) {
@@ -167,6 +167,14 @@ class DataObject {
     let dataObject = new kony.sdk.dto.DataObject(this.objectName);
     dataObject.addField(fieldName, fieldValue);
     this.objectService.deleteRecord({
+      "dataObject": dataObject
+    }, function(result) {
+      successCallback(result);
+    }, function(res) {
+      failCallback();
+    });
+  }
+}Service.deleteRecord({
       "dataObject": dataObject
     }, function(result) {
       successCallback(result);
