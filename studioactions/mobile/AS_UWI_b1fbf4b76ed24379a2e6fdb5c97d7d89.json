@@ -14,16 +14,15 @@
         },
         "language": "js",
         "actions": [{
-            "id": "NAVIGATE_TO_FORM___a744172542734de88a365014e69fedcf",
-            "type": "NAVIGATE_TO_FORM",
-            "formId": "ListingForm",
-            "formKUID": "f55e6944c1f845d7aefcc27134a44dff",
-            "mappings": {},
-            "mappingsOrder": [],
-            "parentId": "",
+            "id": "INVOKE_FUNCTION___hc275e35996443bfa81e12c810982422",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "createNewTweet",
+            "display": "createNewTweet",
+            "inputparams": [],
+            "parentId": null,
             "callbackType": null,
-            "enableMappingEditor": true,
-            "package": ""
+            "disabled": null,
+            "source": "controller"
         }]
     }
 }

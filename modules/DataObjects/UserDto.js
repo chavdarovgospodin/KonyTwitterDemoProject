@@ -1,45 +1,49 @@
 class UserDto extends DataObject {
   constructor(data = {}) {
     super('users');
-    
- 
+
+    super.defineProperty('id');
+    super.defineProperty('username');
+    super.defineProperty('password');
+    super.defineProperty('email');
+    super.defineProperty('fullName');
     super.defineProperty('phone');
     super.defineProperty('address');
     super.defineProperty('coverImg');
     super.defineProperty('profileImg');
     super.defineProperty('passResetToken');
-    
-    
-    this.state = Object.assign({}, data);
+
+
+    this.state = Object.assign(this.state, data);
   }
-  
+
   /**
   	username: string,
     password: string
   */
   signIn(username, password, successCallback, failCallback) {
-//    this.state = {
-//      username: username
-//    };
-    
+    //    this.state = {
+    //      username: username
+    //    };
+
     this.state = Object.assign(this.state, {
       email: username
     });
-    
+
     this.fetch('email', function(result) {
       if (result && result.records) {
-      if (this.hashPassword(password) == result.records[0].password)
-      	successCallback(this.state);
+        if (this.hashPassword(password) == result.records[0].password)
+          successCallback(this.state);
         return;
       } else {
         failCallback({error: 'Not matching password'});
         return;
       }
-      
+
       failCallback({error: 'Not existing user'});
     }.bind(this), failCallback);
   }
-  
+
   /**
   	data: {
     	username: string
@@ -53,7 +57,7 @@ class UserDto extends DataObject {
     this.state = Object.assign({}, data);
     this.submit(successCallback, failCallback);
   }
-  
+
   /**
   	data: {
     	id: number,
@@ -71,8 +75,8 @@ class UserDto extends DataObject {
     this.state = Object.assign({}, data);
     this.submit(successCallback, failCallback);
   }
-  
+
   hashPassword(password) {
-  	return MD5('kony&^%^&' + password + 'power!!1');
+    return MD5('kony&^%^&' + password + 'power!!1');
   }
 }
