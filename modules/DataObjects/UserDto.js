@@ -25,17 +25,19 @@ class UserDto extends DataObject {
     this.state = Object.assign(this.state, {
       email: username
     });
-    
+
     this.fetch('email', function(result) {
+      alert(result);
       if (result && result.records) {
-      if (this.hashPassword(password) == result.records[0].password)
-      	successCallback(this.state);
-        return;
-      } else {
-        failCallback({error: 'Not matching password'});
-        return;
-      }
-      
+        if (this.hashPassword(password) == result.records[0].password){
+          successCallback(this.state);
+          return;
+        } else {
+          failCallback({error: 'Not matching password'});
+          return;
+        }
+      } 
+
       failCallback({error: 'Not existing user'});
     }.bind(this), failCallback);
   }
