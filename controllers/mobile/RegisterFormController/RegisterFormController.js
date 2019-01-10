@@ -58,13 +58,6 @@ define({
 
   },
 
-  successCallback: function () {
-    alert('User saved!');
-    var ntf = new kony.mvc.Navigation('ListingForm');
-    ntf.navigate();
-  },
-
-
   failCallback:function () {
     alert ('failed to submit');
   },
@@ -96,8 +89,15 @@ define({
 
 
   successCreatedAcc: function (result) {
+    try {
+      kony.store.setItem('userInfo', result.id);
+      alert(kony.store.getItem('userInfo'));
+    }
+    catch(err) {
+      alert(err);
+      }
     this.defaultInputProp();
-    alert('Successfully created your account!');
+//     alert('Successfully created your account!');
     var ntf = new kony.mvc.Navigation("ListingForm");
     ntf.navigate();
   }

@@ -20,7 +20,6 @@ class TweetDto extends DataObject {
     this.state = Object.assign(this.state, data);
     this.submit(successCallback, failCallback);
   }
-
-
+  
 
 }
