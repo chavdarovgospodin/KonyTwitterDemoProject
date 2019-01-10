@@ -15,7 +15,7 @@ class FeedDto extends DataObject {
     super.defineProperty('username');
     super.defineProperty('fullName');
     
-    this.state = Object.assign({}, data);
+    this.state = Object.assign(this.state, data);
   }
  
 }

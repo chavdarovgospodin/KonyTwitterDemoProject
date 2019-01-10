@@ -12,8 +12,8 @@ class UserDto extends DataObject {
     super.defineProperty('coverImg');
     super.defineProperty('profileImg');
     super.defineProperty('passResetToken');
-
-
+    
+    
     this.state = Object.assign(this.state, data);
   }
 
@@ -22,28 +22,24 @@ class UserDto extends DataObject {
     password: string
   */
   signIn(username, password, successCallback, failCallback) {
-    //    this.state = {
-    //      username: username
-    //    };
-
+    
     this.state = Object.assign(this.state, {
       email: username
     });
 
     this.fetch('email', function(result) {
-      alert(result);
-      if (result && result.records) {
-        if (this.hashPassword(password) == result.records[0].password){
+
+        if (this.hashPassword(password) == result.password){
           successCallback(this.state);
           return;
         } else {
-          failCallback({error: 'Not matching password'});
+          failCallback("error: The password doesn't match the username.");
           return;
         }
-      } 
-
-      failCallback({error: 'Not existing user'});
-    }.bind(this), failCallback);
+      
+    }.bind(this), function(result){
+      alert("error: The user doesn't exist.");
+    });
   }
 
   /**

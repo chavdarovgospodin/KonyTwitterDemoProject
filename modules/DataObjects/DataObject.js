@@ -22,8 +22,8 @@ class DataObject {
   }
   
   deserialize(data) {
-    for (let name in this.state) {
-      if (this.state.hasOwnProperty(name)) {
+    for (let name in data) {
+      if (data.hasOwnProperty(name)) {
         this.state[name] = data[name];
       }
     }
@@ -55,7 +55,7 @@ class DataObject {
     service.fetch({dataObject}, function (response) {
       const error = (message) => {
         if (errorCallback) {
-          errorCallback(new Error(message));
+          errorCallback((new Error(message).message));
         }
       };
       
@@ -63,7 +63,7 @@ class DataObject {
         error('Unexpected response.');
         return;
       }
-      
+
       switch (response.records.length) {
         case 0:
           error('DataObject not found');
@@ -142,7 +142,7 @@ class DataObject {
     const success = (response) => {
       if (!response[this.objectKey]) {
         if (errorCallback) {
-          errorCallback(new Error('Failed to create DataObject'));
+          errorCallback((new Error('Failed to create DataObject').message));
         }
         return;
       }
