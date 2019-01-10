@@ -6,7 +6,8 @@ define({
 
   createNewTweet: function() {
     var tweet = new TweetDto();
-    var key = tweet.getKey();
+     var user = new UserDto();
+    var key =  user.getKey();
     alert(key);
     var tweetData;
     var d = new Date();
