@@ -142,7 +142,7 @@ class DataObject {
     const success = (response) => {
       if (!response[this.objectKey]) {
         if (errorCallback) {
-          errorCallback(new Error('Failed to create DataObject'));
+          errorCallback((new Error('Failed to create DataObject').message));
         }
         return;
       }
