@@ -20,6 +20,6 @@ class MediaDto extends DataObject {
     super.defineProperty('image');
     super.defineProperty('timeStamp');
     
-    this.state = Object.assign({}, data);
+    this.state = Object.assign(this.state, data);
   }
 }

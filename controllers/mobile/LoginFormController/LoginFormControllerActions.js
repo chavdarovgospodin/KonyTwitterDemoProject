@@ -7,11 +7,6 @@ define({
         var self = this;
         return self.validate.call(this);
     },
-    /** preShow defined for LoginForm **/
-    AS_Form_a4f313dd75784af2a669856b332bd6b2: function AS_Form_a4f313dd75784af2a669856b332bd6b2(eventobject) {
-        var self = this;
-        return self.clearInput.call(this);
-    },
     /** onHide defined for LoginForm **/
     AS_Form_jc9a84edad4c43199c2c1df4f8d23096: function AS_Form_jc9a84edad4c43199c2c1df4f8d23096(eventobject) {
         var self = this;
