@@ -18,9 +18,6 @@ class UserDto extends DataObject {
     password: string
   */
   signIn(username, password, successCallback, failCallback) {
-//    this.state = {
-//      username: username
-//    };
     
     this.state = Object.assign(this.state, {
       email: username
