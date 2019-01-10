@@ -10,7 +10,7 @@ class UserDto extends DataObject {
     super.defineProperty('passResetToken');
     
     
-    this.state = Object.assign({}, data);
+    this.state = Object.assign(this.state, data);
   }
   
   /**
@@ -27,9 +27,9 @@ class UserDto extends DataObject {
     });
 
     this.fetch('email', function(result) {
-      alert(result);
-      if (result && result.records) {
-        if (this.hashPassword(password) == result.records[0].password){
+      alert(JSON.stringify(result));
+      if (result) {
+        if (this.hashPassword(password) == result.password){
           successCallback(this.state);
           return;
         } else {
