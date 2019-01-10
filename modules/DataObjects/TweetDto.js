@@ -1,7 +1,7 @@
 class TweetDto extends DataObject {
   constructor(data = {}) {
-    super('Tweet');
-    
+    super('tweets');
+
     super.defineProperty('userId');
     super.defineProperty('parentId');
     super.defineProperty('content');
@@ -12,8 +12,14 @@ class TweetDto extends DataObject {
     super.defineProperty('isPoll');
     super.defineProperty('status');
     super.defineProperty('type');
-    
-    this.state = Object.assign({}, data);
+
+    this.state = Object.assign(this.state, data);
   }
- 
+
+  createTweet(data, successCallback, failCallback) {
+    this.state = Object.assign(this.state, data);
+    this.submit(successCallback, failCallback);
+  }
+  
+
 }
