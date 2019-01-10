@@ -14,7 +14,7 @@ define({
 
     if (this.view.TextAreaNewTweet.text !== '') {
       tweetData = {
-        userId: key,
+        userId: key.id,
         content: this.view.TextAreaNewTweet.text,
         date: d,
         locLatitude: 0,

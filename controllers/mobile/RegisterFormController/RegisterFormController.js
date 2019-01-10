@@ -90,7 +90,7 @@ define({
 
   successCreatedAcc: function (result) {
     try {
-      kony.store.setItem('userInfo', result.id);
+      kony.store.setItem('userInfo', result);
       alert(kony.store.getItem('userInfo'));
     }
     catch(err) {
