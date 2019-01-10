@@ -32,12 +32,12 @@ class UserDto extends DataObject {
           successCallback(this.state);
           return;
         } else {
-          failCallback({error: 'Not matching password'});
+          failCallback("error: The password doesn't match the username.");
           return;
         }
       
     }.bind(this), function(result){
-      alert("error: Not existing user");
+      alert("error: The user doesn't exist.");
     });
   }
   
