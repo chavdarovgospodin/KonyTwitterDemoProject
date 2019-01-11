@@ -1,8 +1,12 @@
 class UserDto extends DataObject {
   constructor(data = {}) {
     super('users');
-    
- 
+
+    super.defineProperty('id');
+    super.defineProperty('username');
+    super.defineProperty('password');
+    super.defineProperty('email');
+    super.defineProperty('fullName');
     super.defineProperty('phone');
     super.defineProperty('address');
     super.defineProperty('coverImg');
@@ -12,7 +16,7 @@ class UserDto extends DataObject {
     
     this.state = Object.assign(this.state, data);
   }
-  
+
   /**
   	username: string,
     password: string
@@ -40,7 +44,7 @@ class UserDto extends DataObject {
         alert("Service error. Something went wrong.");
     });
   }
-  
+
   /**
   	data: {
     	username: string
@@ -54,7 +58,7 @@ class UserDto extends DataObject {
     this.state = Object.assign({}, data);
     this.submit(successCallback, failCallback);
   }
-  
+
   /**
   	data: {
     	id: number,
@@ -72,8 +76,8 @@ class UserDto extends DataObject {
     this.state = Object.assign({}, data);
     this.submit(successCallback, failCallback);
   }
-  
+
   hashPassword(password) {
-  	return MD5('kony&^%^&' + password + 'power!!1');
+    return MD5('kony&^%^&' + password + 'power!!1');
   }
 }

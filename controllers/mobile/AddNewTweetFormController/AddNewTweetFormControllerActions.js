@@ -15,8 +15,7 @@ define({
     /** onClick defined for FooterComp **/
     AS_UWI_b1fbf4b76ed24379a2e6fdb5c97d7d89: function AS_UWI_b1fbf4b76ed24379a2e6fdb5c97d7d89(eventobject) {
         var self = this;
-        var ntf = new kony.mvc.Navigation("ListingForm");
-        ntf.navigate();
+        return self.createNewTweet.call(this);
     },
     /** preShow defined for AddNewTweetForm **/
     AS_Form_fb2ce7295ac846a98ebf435c8e73769a: function AS_Form_fb2ce7295ac846a98ebf435c8e73769a(eventobject) {
