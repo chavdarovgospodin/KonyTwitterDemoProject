@@ -27,4 +27,21 @@ class MediaDto extends DataObject {
     this.state = Object.assign({}, data);
     this.submit(successCallback, failCallback);
   }
+  
+  getBase64(id, successCallback, failCallback){
+
+    this.state = Object.assign(this.state, {
+      id: id  
+    });
+    
+ alert(this.state); /////////
+    
+    this.fetch('id', function(result) {
+      successCallback(this.state);
+		return;
+    }.bind(this), function(error) {
+      alert(error);
+    });
+  }
+  
 }

@@ -2,7 +2,20 @@
     "classname": "Profile",
     "definitions": {
         "apis": {
-            "custom": [],
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "bbc683004c2a4f9fa1018fb091db0634",
+                    "paramList": [],
+                    "propertyKey": "loadImg",
+                    "pw": {
+                        "displayName": "loadImg",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "je7210f054f14dc9bb6d6727554820f2",
+                    "type": "event"
+                }
+            ],
             "passthrough": []
         },
         "events": {
@@ -10,7 +23,9 @@
             "passthrough": []
         },
         "groups": {
-            "apis": [],
+            "apis": [
+                "General"
+            ],
             "events": [],
             "properties": [],
             "widgets": []
@@ -135,7 +150,18 @@
             ]
         },
         "widgets": {
-            "expose": [],
+            "expose": [
+                {
+                    "kuid": "g538d0acd12b4dfe9f8d9900e732e48b",
+                    "propertyKey": "coverPhoto",
+                    "srcWgtKUID": "h22139ff8a1744769a9bb7b4b60c5e55"
+                },
+                {
+                    "kuid": "baace5b43ba842d886f46cb0b0ef8bf3",
+                    "propertyKey": "profileImage",
+                    "srcWgtKUID": "eb24cc00ceb247fb8e02899f63ff3a31"
+                }
+            ],
             "passthrough": []
         }
     },

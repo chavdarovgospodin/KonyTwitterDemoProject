@@ -65,5 +65,8 @@ define({
       this.showTweets();
     }
   },
-
+  
+  onPreShow(){
+    this.view.Profile.loadImg();
+  }
 });

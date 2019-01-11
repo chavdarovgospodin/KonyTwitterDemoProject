@@ -51,11 +51,11 @@ define(function() {
       var userInfo = kony.store.getItem("userInfo");	
 
       
-      image.uploadImg(imgInfo, function(result){
+      image.uploadImg(imgInfo, function(result) {
         
         userInfo = Object.assign(userInfo, {coverImg: result.id});
         
-        user.updateProfile(userInfo, function(result){
+        user.updateProfile(userInfo, function(result) {
           alert("successfully uploaded the cover image.");
         }, function(error){
           alert(error);
@@ -65,5 +65,26 @@ define(function() {
         alert(error);
       });
     },
+    
+    
+    loadImg() {
+      
+      let profileImg = this.view.profileImage;
+      let userInfo = kony.store.getItem("userInfo");
+      
+      if(userInfo.profileImg){ //null if no img in database
+        
+        let media = new MediaDto();
+        media.getBase64(userInfo.profileImg, function(result) {
+          
+          alert(result);
+          profileImg.base64 = result.image;
+        }, function(error){
+          alert(error);
+        });
+      }
+    }
+    
+    
   };
 });
