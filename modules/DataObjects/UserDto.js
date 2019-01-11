@@ -41,7 +41,7 @@ class UserDto extends DataObject {
       if(result === 'DataObject not found')
       	alert("error: The user doesn't exist.");
       else
-        alert("Service error. Something went wrong.");
+        alert(result);
     });
   }
 
