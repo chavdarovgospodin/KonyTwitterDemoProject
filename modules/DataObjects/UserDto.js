@@ -55,7 +55,7 @@ class UserDto extends DataObject {
   */
   signUp(data, successCallback, failCallback) {
     //TODO: validate data
-    this.state = Object.assign({}, data);
+    this.state = Object.assign(this.state, data);
     this.submit(successCallback, failCallback);
   }
 
@@ -73,7 +73,7 @@ class UserDto extends DataObject {
     }
   */
   updateProfile(data, successCallback, failCallback) {
-    this.state = Object.assign({}, data);
+    this.state = Object.assign(this.state, data);
     this.submit(successCallback, failCallback);
   }
 

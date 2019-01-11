@@ -18,7 +18,7 @@ class DataObject {
   }
   
   getKey() {
-    return this.state[this.objectKey];
+    return this.objectKey;
   }
   
   deserialize(data) {
@@ -43,14 +43,14 @@ class DataObject {
   getServiceName() { return 'TestDB'; }
   
   fetch(key, successCallback, errorCallback) {
-    const keyValue = this.getKey() || key;
+    const keyValue =  key || this.getKey();
     if (keyValue === null || typeof keyValue === 'undefined') {
       throw new Error('DataObject Key should be defined.');
     }
-    
+
     const dataObject = new kony.sdk.dto.DataObject(this.objectName);
     dataObject.odataUrl = `$filter=${keyValue} eq ${this.state[keyValue]}`;
-    
+
     const service = kony.sdk.getCurrentInstance().getObjectService(this.getServiceName(), { access: 'online' });
     service.fetch({dataObject}, function (response) {
       const error = (message) => {
