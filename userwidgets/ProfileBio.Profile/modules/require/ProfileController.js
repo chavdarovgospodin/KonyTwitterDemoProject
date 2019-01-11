@@ -24,14 +24,14 @@ define(function() {
         date: new Date().toISOString()
       };
 
-      image.uploadImg(imgInfo, function(result){
+      image.uploadImg(imgInfo, function(result) {
         this.userInfo = Object.assign(this.userInfo, {profileImg: result.id});
 
-        this.user.updateProfile(this.userInfo, () => {
+        this.user.updateProfile(this.userInfo , () => {
           alert("successfully uploaded profile image.");
-        }, this.failCallBack);
+        }, this.failCallback(result));
         
-      }.bind(this), this.failCallBack);
+      }.bind(this), this.failCallback);
     },
 
 
@@ -51,9 +51,9 @@ define(function() {
 
         this.user.updateProfile(this.userInfo, () => {
           alert("successfully uploaded the cover image.");
-        }, this.failCallBack);
+        }, this.failCallback(result));
         
-      }.bind(this), this.failCallBack);
+      }.bind(this), this.failCallback);
     },
 
 
@@ -69,13 +69,13 @@ define(function() {
         let media = new MediaDto();
         media.getBase64(this.userInfo.profileImg, function(result) {
           profileImg.base64 = result.image;
-        }, this.failCallBack);
+        }, this.failCallback);
       }
     },
 
 
 
-    failCallBack(error){
+    failCallback(error){
       alert(error);
     }
   };
