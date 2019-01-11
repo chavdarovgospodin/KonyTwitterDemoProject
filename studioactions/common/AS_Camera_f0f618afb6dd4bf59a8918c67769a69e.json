@@ -1,0 +1,29 @@
+{
+    "AS_Camera_f0f618afb6dd4bf59a8918c67769a69e": {
+        "id": "AS_Camera_f0f618afb6dd4bf59a8918c67769a69e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwu5c051a34a9b419693cd6e609144e6bc",
+            "type": "userwidgets",
+            "KUID": "u5c051a34a9b419693cd6e609144e6bc"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___af2d2b18e8ac481096a00148479489f7",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "captureTweetImg",
+            "display": "captureTweetImg",
+            "inputparams": [{
+                "name": "eventObject"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

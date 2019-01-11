@@ -1,0 +1,18 @@
+{
+    "AS_UWI_f9b69dd5f57a4070b117e9b58e010ff7": {
+        "id": "AS_UWI_f9b69dd5f57a4070b117e9b58e010ff7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "AddNewTweetForm",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ed777833602d432fb0fbbb4b1b2b4013"
+        },
+        "language": "js",
+        "actions": []
+    }
+}
