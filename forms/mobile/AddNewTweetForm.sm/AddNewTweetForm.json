@@ -31,7 +31,8 @@
     "canUpdateUI": true,
     "children": [
         "FlexMain",
-        "FooterComp"
+        "FooterComp",
+        "cameraWidget"
     ],
     "containerweight": 100,
     "controllerInfo": {

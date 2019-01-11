@@ -43,6 +43,9 @@
         "ide_onCapture": "AS_UWI_b9b06351f3a847d8acc0834e674cbce6",
         "ide_onClick": "AS_UWI_b1fbf4b76ed24379a2e6fdb5c97d7d89",
         "isVisible1": true,
+        "isVisible2": true,
+        "isVisible3": true,
+        "isVisible4": true,
         "text": "Tweet"
     },
     "enablescrolling": true,

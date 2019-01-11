@@ -1,0 +1,31 @@
+{
+    "AS_Camera_ef91afd9a5a6402491630e63c69937eb": {
+        "id": "AS_Camera_ef91afd9a5a6402491630e63c69937eb",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "AddNewTweetForm",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ed777833602d432fb0fbbb4b1b2b4013"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___i296d933be8342cf9a740032dab23f84",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "capture",
+            "display": "capture",
+            "inputparams": [{
+                "name": "eventObject",
+                "value": " eventobject"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

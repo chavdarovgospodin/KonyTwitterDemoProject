@@ -55,7 +55,7 @@
         }
     },
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "c0d32ea46c6a43809d21ab0b3833a268",
     "name": "kony.ui.Label",
     "parent": "FlexImages",
