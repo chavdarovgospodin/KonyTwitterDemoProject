@@ -4,15 +4,15 @@
     "__parentReadjusting__": false,
     "_bottom_": {
         "type": "number",
-        "value": "2"
+        "value": "0"
     },
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
-        "value": "5dp"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -30,7 +30,7 @@
     "_text_": "Camera",
     "_width_": {
         "type": "string",
-        "value": "50dp"
+        "value": "100%"
     },
     "androidwearos": {
         "render": false
@@ -42,14 +42,14 @@
         "render": false
     },
     "id": "cameraWidget",
-    "ide_onCapture": "AS_Camera_ef91afd9a5a6402491630e63c69937eb",
+    "ide_onCapture": "AS_Camera_caac461008ad4741923383c1766a0214",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "a4baacf5e4b24ffdb42666191bb285e5",
     "name": "kony.ui.Camera",
     "oncapture": null,
-    "parent": "AddNewTweetForm",
+    "parent": "FlexCamera",
     "pf": "AddNewTweetForm",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

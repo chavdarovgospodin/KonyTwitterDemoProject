@@ -32,7 +32,7 @@
     "children": [
         "FlexMain",
         "FooterComp",
-        "cameraWidget"
+        "FlexCamera"
     ],
     "containerweight": 100,
     "controllerInfo": {

@@ -1,0 +1,24 @@
+{
+    "AS_Camera_caac461008ad4741923383c1766a0214": {
+        "id": "AS_Camera_caac461008ad4741923383c1766a0214",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onCapture_a975a3ce6a8748d190814de166e390fb",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "capture",
+            "display": "capture",
+            "inputparams": [{
+                "name": "eventObject",
+                "value": " eventobject"
+            }],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

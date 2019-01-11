@@ -1,27 +1,26 @@
 define({ 
+  
+  imageSrc: '',
 
   clearData: function() {
     this.view.TextAreaNewTweet.text = '';
   },
- 
-
+  
   createNewTweet: function() {
-    this.img = '';
     var tweet = new TweetDto();
-	var key = kony.store.getItem('userInfo');
-    var img = kony.store.getItem('img');
+	var key = kony.store.getItem('userInfo');   
     var tweetData;
     var d = new Date();
-    if (this.view.TextAreaNewTweet.text !== '' || img !== null) {
+    var img = this.imageSrc;
+    if (this.view.TextAreaNewTweet.text !== '' && img !== '') {
       tweetData = {
         userId: key.id,
         content: this.view.TextAreaNewTweet.text,
         date: d.toISOString(),
         locLatitude: 0,
         locLongitude:0,
-        image: img
+     	image: img
       };
-      alert(JSON.stringify(tweetData));
       tweet.createTweet(tweetData, this.successfulTweet,this.error );
     }
     else {
@@ -40,7 +39,7 @@ define({
   },
   
   capture:function(eventObject){
-// 	kony.store.setItem('img', eventObject.base64);
+	this.imageSrc = eventObject.base64;
   }
 
 });

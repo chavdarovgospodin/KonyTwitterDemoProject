@@ -17,14 +17,14 @@ define({
         var self = this;
         return self.createNewTweet.call(this);
     },
-    /** onCapture defined for cameraWidget **/
-    AS_Camera_ef91afd9a5a6402491630e63c69937eb: function AS_Camera_ef91afd9a5a6402491630e63c69937eb(eventobject) {
-        var self = this;
-        return self.capture.call(this, eventobject);
-    },
     /** preShow defined for AddNewTweetForm **/
     AS_Form_fb2ce7295ac846a98ebf435c8e73769a: function AS_Form_fb2ce7295ac846a98ebf435c8e73769a(eventobject) {
         var self = this;
         return self.clearData.call(this);
+    },
+    /** onCapture defined for cameraWidget **/
+    AS_Camera_caac461008ad4741923383c1766a0214: function AS_Camera_caac461008ad4741923383c1766a0214(eventobject) {
+        var self = this;
+        return self.capture.call(this, eventobject);
     }
 });
