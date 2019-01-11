@@ -33,8 +33,11 @@ class UserDto extends DataObject {
           return;
         }
       
-    }.bind(this), function(result){
-      alert("error: The user doesn't exist.");
+    }.bind(this), function(result) {
+      if(result === 'DataObject not found')
+      	alert("error: The user doesn't exist.");
+      else
+        alert("Service error. Something went wrong.");
     });
   }
   
@@ -65,7 +68,7 @@ class UserDto extends DataObject {
     	profileImg: number
     }
   */
-  updateProfile(data) {
+  updateProfile(data, successCallback, failCallback) {
     this.state = Object.assign({}, data);
     this.submit(successCallback, failCallback);
   }
