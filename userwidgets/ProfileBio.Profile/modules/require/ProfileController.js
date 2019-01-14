@@ -9,61 +9,74 @@ define(function() {
 
     },
 
-    captureProfileImg: function (eventObject) {
-      
-      this.view.profileImage.base64 = eventObject.base64;
+    //GLOBAL PROPERTY
+    user: new UserDto(),
+    userInfo: kony.store.getItem("userInfo"),
 
+
+
+    captureProfileImg: function (eventObject) {
+
+      this.view.profileImage.base64 = eventObject.base64;
       var image = new MediaDto();
       var imgInfo = {
         image: eventObject.base64,
         date: new Date().toISOString()
       };
-      
-      var user = new UserDto();
-      var userInfo = kony.store.getItem("userInfo");	
 
-      
-      image.uploadImg(imgInfo, function(result){
+      image.uploadImg(imgInfo, function(result) {
+        this.userInfo = Object.assign(this.userInfo, {profileImg: result.id});
+
+        this.user.updateProfile(this.userInfo , () => {
+          alert("successfully uploaded profile image.");
+        }, this.failCallback(result));
         
-        userInfo = Object.assign(userInfo, {profileImg: result.id});
-        
-        user.updateProfile(userInfo, function(result){
-			alert("successfully uploaded profile image.");
-        }, function(error){
-          alert(error);
-        });
-        
-      }, function(error){ 
-        alert(error);
-      });
+      }.bind(this), this.failCallback);
     },
+
+
 
     captureCoverImg: function (eventObject) {
+
       this.view.coverPhoto.base64 = eventObject.base64;
-      
       var image = new MediaDto();
       var imgInfo = {
         image: eventObject.base64,
         date: new Date().toISOString()
       };
-      
-      var user = new UserDto();
-      var userInfo = kony.store.getItem("userInfo");	
 
-      
-      image.uploadImg(imgInfo, function(result){
-        
-        userInfo = Object.assign(userInfo, {coverImg: result.id});
-        
-        user.updateProfile(userInfo, function(result){
+      image.uploadImg(imgInfo, function(result) {
+
+        this.userInfo = Object.assign(this.userInfo, {coverImg: result.id});
+
+        this.user.updateProfile(this.userInfo, () => {
           alert("successfully uploaded the cover image.");
-        }, function(error){
-          alert(error);
-        });
+        }, this.failCallback(result));
         
-      }, function(error){ 
-        alert(error);
-      });
+      }.bind(this), this.failCallback);
     },
+
+
+
+
+
+    loadImg() {
+
+      let profileImg = this.view.profileImage;
+
+      if(this.userInfo.profileImg) { //null if no img in database
+
+        let media = new MediaDto();
+        media.getBase64(this.userInfo.profileImg, function(result) {
+          profileImg.base64 = result.image;
+        }, this.failCallback);
+      }
+    },
+
+
+
+    failCallback(error){
+      alert(error);
+    }
   };
 });

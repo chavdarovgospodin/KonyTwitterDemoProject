@@ -35,6 +35,8 @@ define({
   },
 
 
+  
+  
   clearInput: function () {
     this.view.txtUsername.text = '';
     this.view.txtPassword.text = '';
@@ -45,6 +47,7 @@ define({
   },
 
 
+  
   successLogin: function (result) {
 
 	//save to localStorage
@@ -59,6 +62,9 @@ define({
   failLogin: function (result) {
     alert(result);
   },
+  
+  
+  
   
   //save email/username to LocalStorage
   saveUser: function(userData){

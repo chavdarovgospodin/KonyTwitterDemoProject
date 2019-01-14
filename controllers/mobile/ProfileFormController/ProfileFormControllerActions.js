@@ -7,5 +7,10 @@ define({
         var self = this;
         var ntf = new kony.mvc.Navigation("AddNewTweetForm");
         ntf.navigate();
+    },
+    /** preShow defined for ProfileForm **/
+    AS_Form_d86b6a87d2be416c83501879afffd117: function AS_Form_d86b6a87d2be416c83501879afffd117(eventobject) {
+        var self = this;
+        return self.onPreShow.call(this);
     }
 });

@@ -15,7 +15,7 @@ image.submit(function(result){
 
 class MediaDto extends DataObject {
   constructor(data = {}) {
-    super('media');
+    super('media', 'id');
     
     super.defineProperty('image');
     super.defineProperty('date');
@@ -23,8 +23,29 @@ class MediaDto extends DataObject {
     this.state = Object.assign(this.state, data);
   }
   
+  
+  
+  
   uploadImg(data, successCallback, failCallback){
-    this.state = Object.assign({}, data);
+    this.state = Object.assign(this.state, data);
     this.submit(successCallback, failCallback);
   }
+  
+  
+  
+
+  getBase64(id, successCallback, failCallback){
+
+    this.state = Object.assign(this.state, {
+      id: id  
+    });
+
+    this.fetch("id", function(result) {
+      successCallback(this.state);
+      return;
+    }.bind(this), function(error) {
+      alert(error);
+    });
+  }
+
 }
