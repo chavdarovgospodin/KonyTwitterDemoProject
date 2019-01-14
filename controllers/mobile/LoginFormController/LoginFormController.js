@@ -66,7 +66,9 @@ define({
   
   
   
-  //save email/username to LocalStorage
+  /*
+  * save User Data to LocalStorage
+  */
   saveUser: function(userData){
     try{
       kony.store.setItem('userInfo', userData);

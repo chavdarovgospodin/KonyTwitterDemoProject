@@ -37,7 +37,7 @@ class MediaDto extends DataObject {
   /*
   *Load an image into a specific image Element.
   @targetElem - The element where to insert the image
-  @imgId - The id of the image in the database
+  @imgId - number - The id of the image in the database
   */
   loadImg(targetElem, imgId) {
 
@@ -56,6 +56,7 @@ class MediaDto extends DataObject {
 
   /*
   *Attempt to return the record of an image from the database
+  * @id - number - The id of the image
   */
   getBase64(id, successCallback, failCallback) {
 
