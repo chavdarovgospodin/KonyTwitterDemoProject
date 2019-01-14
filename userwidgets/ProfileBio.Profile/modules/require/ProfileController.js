@@ -6,7 +6,6 @@ define(function() {
     },
     //Logic for getters/setters of custom properties
     initGettersSetters: function() {
-
     },
 
     //GLOBAL PROPERTY
@@ -15,6 +14,10 @@ define(function() {
 
 
 
+    /*
+    *Executed when there is a click event on the profile image.
+    *Uploads the new img to the database.
+    */
     captureProfileImg: function (eventObject) {
 
       this.view.profileImage.base64 = eventObject.base64;
@@ -29,13 +32,17 @@ define(function() {
 
         this.user.updateProfile(this.userInfo , () => {
           alert("successfully uploaded profile image.");
-        }, this.failCallback(result));
+        }, (error) => {alert("Failed to update user information.\n" + error);});
         
-      }.bind(this), this.failCallback);
+      }.bind(this), this.failImgUpload);
     },
 
 
 
+    /*
+    *Executed when there is a click event on the Cover image.
+    *Uploads the new img to the database.
+    */
     captureCoverImg: function (eventObject) {
 
       this.view.coverPhoto.base64 = eventObject.base64;
@@ -51,32 +58,33 @@ define(function() {
 
         this.user.updateProfile(this.userInfo, () => {
           alert("successfully uploaded the cover image.");
-        }, this.failCallback(result));
+        }, (error) => {alert("Failed to update user information.\n" + error);});
         
-      }.bind(this), this.failCallback);
+      }.bind(this), this.failImgUpload);
     },
 
 
 
+    /*
+    * The failCallback if the image isn't successfully uploaded
+    * to the database.
+    */
+    failImgUpload(error){
+		alert(error);
+    },
 
 
+    
+    
+    /*
+    *Executed every time on preShow of the Form.
+    */
     loadImg() {
-
-      let profileImg = this.view.profileImage;
-
-      if(this.userInfo.profileImg) { //null if no img in database
-
-        let media = new MediaDto();
-        media.getBase64(this.userInfo.profileImg, function(result) {
-          profileImg.base64 = result.image;
-        }, this.failCallback);
-      }
+      
+      let media = new MediaDto();
+      media.loadImg(this.view.profileImage, this.userInfo.profileImg); //load user's profile img
     },
-
-
-
-    failCallback(error){
-      alert(error);
-    }
+    
+    
   };
 });
