@@ -24,17 +24,40 @@ class MediaDto extends DataObject {
   }
   
   
-  
-  
+
+  /*
+  *Attempts to upload an image to the database.
+  */
   uploadImg(data, successCallback, failCallback){
     this.state = Object.assign(this.state, data);
     this.submit(successCallback, failCallback);
   }
   
   
+  /*
+  *Load an image into a specific image Element.
+  @targetElem - The element where to insert the image
+  @imgId - The id of the image in the database
+  */
+  loadImg(targetElem, imgId) {
+
+      if(imgId) { //null if no img in database
+
+        let media = new MediaDto();
+        media.getBase64(imgId, function(result) {
+          targetElem.base64 = result.image;
+        }, function(error) {
+          alert(error);
+        });
+      }
+    }
+
   
 
-  getBase64(id, successCallback, failCallback){
+  /*
+  *Attempt to return the record of an image from the database
+  */
+  getBase64(id, successCallback, failCallback) {
 
     this.state = Object.assign(this.state, {
       id: id  
@@ -43,9 +66,7 @@ class MediaDto extends DataObject {
     this.fetch("id", function(result) {
       successCallback(this.state);
       return;
-    }.bind(this), function(error) {
-      alert(error);
-    });
+    }.bind(this), failCallback);
   }
 
 }
