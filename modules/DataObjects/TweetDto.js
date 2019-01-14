@@ -1,7 +1,6 @@
 class TweetDto extends DataObject {
   constructor(data = {}) {
     super('tweets');
-
     super.defineProperty('userId');
     super.defineProperty('parentId');
     super.defineProperty('content');

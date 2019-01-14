@@ -15,11 +15,16 @@ image.submit(function(result){
 
 class MediaDto extends DataObject {
   constructor(data = {}) {
-    super('Media');
+    super('media');
     
     super.defineProperty('image');
-    super.defineProperty('timeStamp');
+    super.defineProperty('date');
     
     this.state = Object.assign(this.state, data);
+  }
+  
+  uploadImg(data, successCallback, failCallback){
+    this.state = Object.assign({}, data);
+    this.submit(successCallback, failCallback);
   }
 }
