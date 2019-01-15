@@ -35,6 +35,8 @@ define({
   },
 
 
+  
+  
   clearInput: function () {
     this.view.txtUsername.text = '';
     this.view.txtPassword.text = '';
@@ -45,6 +47,7 @@ define({
   },
 
 
+  
   successLogin: function (result) {
 
 	//save to localStorage
@@ -60,7 +63,12 @@ define({
     alert(result);
   },
   
-  //save email/username to LocalStorage
+  
+  
+  
+  /*
+  * save User Data to LocalStorage
+  */
   saveUser: function(userData){
     try{
       kony.store.setItem('userInfo', userData);
