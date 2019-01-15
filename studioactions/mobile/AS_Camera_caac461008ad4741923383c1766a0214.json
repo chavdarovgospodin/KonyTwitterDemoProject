@@ -12,10 +12,7 @@
             "type": "INVOKE_FUNCTION",
             "sequenceKUID": "capture",
             "display": "capture",
-            "inputparams": [{
-                "name": "eventObject",
-                "value": " eventobject"
-            }],
+            "inputparams": [],
             "callbackType": null,
             "disabled": null,
             "source": "controller"

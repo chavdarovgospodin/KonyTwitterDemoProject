@@ -1,7 +1,5 @@
 define({ 
 
-  imageSrc: '',
-
   clearData: function() {
     this.view.TextAreaNewTweet.text = '';
   },
