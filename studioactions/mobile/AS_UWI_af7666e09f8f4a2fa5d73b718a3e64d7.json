@@ -1,0 +1,28 @@
+{
+    "AS_UWI_af7666e09f8f4a2fa5d73b718a3e64d7": {
+        "id": "AS_UWI_af7666e09f8f4a2fa5d73b718a3e64d7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "AddNewTweetForm",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ed777833602d432fb0fbbb4b1b2b4013"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___f855dcd1fbce4dbdb25a3a04d10d3595",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "createNewTweet",
+            "display": "createNewTweet",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}
