@@ -58,8 +58,8 @@ define({
 
   },
 
-  failCallback:function () {
-    alert ('failed to submit');
+  failCallback:function (err) {
+    alert (err);
   },
 
 

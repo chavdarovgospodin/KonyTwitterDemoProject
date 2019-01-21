@@ -1,4 +1,6 @@
 define({ 
+  
+  img:'',
 
   clearData: function() {
     this.view.TextAreaNewTweet.text = '';
@@ -20,11 +22,14 @@ define({
           locLongitude: position.coords.longitude,
 
         };
-        tweet.createTweet(tweetData, this.successfulTweet,this.error );
+      
+         tweet.createTweet(tweetData, this.successfulTweet,this.error );
+        	//kony.store.setItem('tweet', tweetData);
       }
       else {
         alert('please submit something');
       }
+      //alert(kony.store.getItem('tweet'));
     });
   },
 
