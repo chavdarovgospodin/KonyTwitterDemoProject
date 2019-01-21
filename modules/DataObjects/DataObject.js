@@ -18,7 +18,7 @@ class DataObject {
   }
   
   getKey() {
-    return this.objectKey;
+    return this.state[this.objectKey];
   }
   
   deserialize(data) {
@@ -174,4 +174,55 @@ class DataObject {
       failCallback();
     });
   }
+  
+  
+  /**
+ * NOTE: All the placeholders are represented as <place-holder>, so just that part must be replaced
+ * with the actual value, rest of the things must remain same.
+ * Kony Fabric is auto initialized, only if the Kony Fabric app is linked in the Kony Visualizer.
+ * In all other cases the Kony Fabric initialization code should be written by User if not done
+ * already, for below sample to work.
+ */
+  //Code to invoke parent integration service should be present to use below code.
+  getTweetsFiltered(userId) {
+    
+    let operationName =  "twitter-demo-team1_getTweetsFiltered";
+    let data= {"UserIdVar": userId,"TopVar": "20","SkipVar": "0","SortFieldVar": "id","SortDirectionVar": "desc"};
+    let headers= {};
+    integrationObj.invokeOperation(operationName, headers, data, operationSuccess, operationFailure);  //defnite success and failure
+    
+    
+    function operationSuccess(result) {
+      //code for success call back
+    }
+    function operationFailure(error) {
+      alert(error);
+    }
+  }
+  
+  
+  
+  /**
+ * NOTE: All the placeholders are represented as <place-holder>, so just that part must be replaced
+ * with the actual value, rest of the things must remain same.
+ * Kony Fabric is auto initialized, only if the Kony Fabric app is linked in the Kony Visualizer.
+ * In all other cases the Kony Fabric initialization code should be written by User if not done
+ * already, for below sample to work.
+ */
+  //Code to invoke parent integration service should be present to use below code.
+  getFeet(userId) {
+    
+    let operationName =  "twitter-demo-team1_getFeed";
+    let data= {"UserIdVar": userId,"TopVar": "10","SkipVar": "0","SortFieldVar": "id","SortDirectionVar": "desc"};
+    let headers= {};
+    integrationObj.invokeOperation(operationName, headers, data, operationSuccess, operationFailure); //defnite success and failure
+    
+    function operationSuccess(res){
+      //code for success call back
+    }
+    function operationFailure(res){
+      //code for failure call back
+    }
+  }
+
 }
