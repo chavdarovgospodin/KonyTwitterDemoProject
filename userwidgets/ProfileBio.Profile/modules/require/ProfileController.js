@@ -83,6 +83,7 @@ define(function() {
       
       let media = new MediaDto();
       media.loadImg(this.view.profileImage, this.userInfo.profileImg); //load user's profile img
+      media.loadImg(this.view.coverPhoto, this.userInfo.coverImg);
     },
     
     

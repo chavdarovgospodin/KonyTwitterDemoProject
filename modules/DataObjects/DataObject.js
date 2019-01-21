@@ -18,7 +18,7 @@ class DataObject {
   }
   
   getKey() {
-    return this.objectKey;
+    return this.state[this.objectKey];
   }
   
   deserialize(data) {
