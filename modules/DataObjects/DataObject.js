@@ -18,7 +18,7 @@ class DataObject {
   }
   
   getKey() {
-    return this.objectKey;
+    return this.state[this.objectKey];
   }
   
   deserialize(data) {
@@ -43,14 +43,14 @@ class DataObject {
   getServiceName() { return 'TestDB'; }
   
   fetch(key, successCallback, errorCallback) {
-    const keyValue =  key || this.getKey();
+    const keyValue = this.getKey() || key;
     if (keyValue === null || typeof keyValue === 'undefined') {
       throw new Error('DataObject Key should be defined.');
     }
-
+    
     const dataObject = new kony.sdk.dto.DataObject(this.objectName);
     dataObject.odataUrl = `$filter=${keyValue} eq ${this.state[keyValue]}`;
-
+    
     const service = kony.sdk.getCurrentInstance().getObjectService(this.getServiceName(), { access: 'online' });
     service.fetch({dataObject}, function (response) {
       const error = (message) => {
@@ -63,7 +63,7 @@ class DataObject {
         error('Unexpected response.');
         return;
       }
-
+      
       switch (response.records.length) {
         case 0:
           error('DataObject not found');
@@ -142,7 +142,7 @@ class DataObject {
     const success = (response) => {
       if (!response[this.objectKey]) {
         if (errorCallback) {
-          errorCallback((new Error('Failed to create DataObject').message));
+          errorCallback(new Error('Failed to create DataObject'));
         }
         return;
       }
